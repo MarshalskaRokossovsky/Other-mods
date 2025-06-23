@@ -1,0 +1,296 @@
+{
+    "FileID": 573785173,
+    "FileVersion": 8,
+    "ViewPos.x": -213,
+    "ViewPos.y": -48,
+    "ScriptName": "Custom_weapon_r",
+    "ScriptFileOut": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\OtherMods\\Upgrade\\DATA\\Script\\Custom_weapon_r.scr",
+    "ScriptTextOut": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\OtherMods\\Upgrade\\DATA\\Script\\Custom_weapon_r.txt",
+    "LangDatIn": "",
+    "LangDatOut": "",
+    "MainDatIn": "",
+    "MainDatOut": "",
+    "CacheDatIn": "",
+    "CacheDatOut": "",
+    "ExportLang": false,
+    "Visual.Objects": 
+    [
+        {
+            "Groups": 
+            [
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupNew",
+                    "Pos.x": 200,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Owner": 62,
+                    "Group.Type": 126,
+                    "CntShipMin": 0,
+                    "CntShipMax": 0,
+                    "SpeedMin": 100,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": false,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "DistSearch": 10000,
+                    "Dialog": -1,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Operations": 
+            [
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 270,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Init",
+                    "Code": 
+                    [
+                        "weapon1=InventNewCustomWeapon('Custom3',t_Weapon4);",
+                        "SetCustomWeaponSE(weapon1,'Weapon.3','Weapon.NoGraph','Weapon.MissileHit',3);",
+                        "SetCustomWeaponPrimaryData(weapon1,4,t_Weapon4,t_Weapon7);",
+                        "SetCustomWeaponSizeAndCost(weapon1,18,22);",
+                        "SetCustomWeaponDamageData(weapon1,12,20,12);",
+                        "SetCustomWeaponShotData(weapon1,'Missile2',2,1000,0,4);",
+                        "SetCustomWeaponAvailability(weapon1,'Free');",
+                        "SetCustomMissileWeaponStats(weapon1,1000,1500,800,6);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 240,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Global",
+                    "Code": 
+                    [
+                        "GRun()"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 270,
+                    "Pos.y": 230,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Init",
+                    "Code": 
+                    [
+                        "weapon2=InventNewCustomWeapon('Desolator',t_Weapon3);",
+                        "SetCustomWeaponSE(weapon2,'Weapon.2','Weapon.NoGraph','',3);",
+                        "SetCustomWeaponPrimaryData(weapon2,6,t_Weapon9,t_Weapon16);",
+                        "SetCustomWeaponSizeAndCost(weapon2,20,14);",
+                        "SetCustomWeaponDamageData(weapon2,14,18,1);",
+                        "SetCustomWeaponShotData(weapon2,'Normal',1000,325,0,6,2);",
+                        "SetCustomWeaponAvailability(weapon2,'NotSold');"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 290,
+                    "Pos.y": 230,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Init",
+                    "Code": 
+                    [
+                        "weapon3=InventNewCustomWeapon('Shredder',t_Weapon2);",
+                        "SetCustomWeaponSE(weapon3,'Weapon.1','Weapon.NoGraph','',1);",
+                        "SetCustomWeaponPrimaryData(weapon3,6,t_Weapon9,t_Weapon1);",
+                        "SetCustomWeaponSizeAndCost(weapon3,20,30);",
+                        "SetCustomWeaponDamageData(weapon3,3,6,2);",
+                        "SetCustomWeaponShotData(weapon3,'Normal',1000,260,0,10,6);",
+                        "SetCustomWeaponAvailability(weapon3,'Free');"
+                    ]
+                }
+            ],
+            "Planets": 
+            [
+                {
+                    "Type": "TPlanet",
+                    "Name": "PlanetNew",
+                    "Pos.x": 200,
+                    "Pos.y": 310,
+                    "Parent": -1,
+                    "#": 0,
+                    "Race": 62,
+                    "Owner": 62,
+                    "Economy": 14,
+                    "Goverment": 62,
+                    "RangeMin": 0,
+                    "RangeMax": 100,
+                    "Dialog": -1
+                }
+            ],
+            "Ships": 
+            [
+                {
+                    "Type": "TStarShip",
+                    "Name": "",
+                    "Pos.x": 200,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Count": 1,
+                    "Owner": 62,
+                    "Ship.Type": 126,
+                    "Player": true,
+                    "SpeedMin": 0,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Stars": 
+            [
+                {
+                    "Type": "TStar",
+                    "Name": "StarNew",
+                    "Pos.x": 200,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Constellation": 0,
+                    "Priority": 0,
+                    "NoKling": false,
+                    "NoComeKling": false
+                }
+            ],
+            "States": 
+            [
+                {
+                    "Type": "TState",
+                    "Name": "StateNew",
+                    "Pos.x": 200,
+                    "Pos.y": 370,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 0,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                }
+            ],
+            "Variables": 
+            [
+                {
+                    "Type": "TVar",
+                    "Name": "weapon1",
+                    "Pos.x": 120,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Dword",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "weapon2",
+                    "Pos.x": 120,
+                    "Pos.y": 270,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Dword",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "weapon3",
+                    "Pos.x": 120,
+                    "Pos.y": 290,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Dword",
+                    "Init": "",
+                    "Global": false
+                }
+            ]
+        }
+    ],
+    "Visual.Links": 
+    [
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 0,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 1,
+            "End": 0,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 4,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 6,
+            "End": 8,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 8,
+            "End": 10,
+            "Nom": 0,
+            "Arrow": true
+        }
+    ],
+    "BlockPar.EC.Total.Strings": 0,
+    "BlockPar.EC": 
+    [
+      
+    ]
+}

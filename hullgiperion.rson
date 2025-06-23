@@ -1,0 +1,568 @@
+{
+    "FileID": 573785173,
+    "FileVersion": 8,
+    "ViewPos.x": -287,
+    "ViewPos.y": -569,
+    "ScriptName": "hullgiperion",
+    "ScriptFileOut": "C:\\Users\\Кирилл\\Documents\\hullgiperion.scr",
+    "ScriptTextOut": "C:\\Users\\Кирилл\\Documents\\russ.txt",
+    "LangDatIn": "",
+    "LangDatOut": "",
+    "MainDatIn": "",
+    "MainDatOut": "",
+    "CacheDatIn": "",
+    "CacheDatOut": "",
+    "ExportLang": false,
+    "Visual.Objects": 
+    [
+        {
+            "DialogAnswers": 
+            [
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "exit",
+                    "Pos.x": 610,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Спасибо и до скорого!",
+                    "AMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "buyhull",
+                    "Pos.x": 400,
+                    "Pos.y": -30,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Этот корпус невероятно крут! Беру, держите <cost> cr.",
+                    "AMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 400,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Я не собираюсь тратить целое состояние на эту фигню!",
+                    "AMsg.Num": "2"
+                }
+            ],
+            "DialogMessages": 
+            [
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "ready",
+                    "Pos.x": 480,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Отлично, солдат... вернее, рейнджер! Спасибо за ваш вклад в поддержку военного дела по уничтожению доминаторов. Корпус размером <hullsize> уже был доставлен на склад нашей базы.",
+                    "DMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "infohull",
+                    "Pos.x": 320,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Наши специалисты-инженеры разработали уникальный военный корпус, построенный с использованием технологий неизвестных кораблей из чёрных дыр. Он снабжен современными орудийными и навигационными системами и обработан акрином высшего технического уровня. Однако мы не можем бесплатно выдавать такие корпуса каждому рейнджеру, поэтому покупка обойдется вам в кругленькую сумму - <cost> кредитов.",
+                    "DMsg.Num": "1"
+                }
+            ],
+            "Dialogs": 
+            [
+                {
+                    "Type": "TDialog",
+                    "Name": "DialogWB",
+                    "Pos.x": 110,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0
+                }
+            ],
+            "Groups": 
+            [
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupNew",
+                    "Pos.x": 10,
+                    "Pos.y": 60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Owner": 62,
+                    "Group.Type": 126,
+                    "CntShipMin": 1,
+                    "CntShipMax": 1,
+                    "SpeedMin": 100,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": true,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "DistSearch": 10000,
+                    "Dialog": -1,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Operations": 
+            [
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 60,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Global",
+                    "Code": 
+                    [
+                        "GRun ()"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 120,
+                    "Pos.y": 10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "gtu=GalaxyTechLevel();",
+                        "diff=GalaxyDiffLevels();",
+                        "rank=ShipRank(Player());",
+                        "curbase=GetShipRuins(Player());",
+                        "hullrace=ShipOwner(Player());"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 610,
+                    "Pos.y": -20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "hullno=CreateHull(0,hullsize,gtu,hullrace);",
+                        "SpecialToEquipment(408,hullno);",
+                        "AddItemToStorage(curbase,hullno);",
+                        "ShipMoney(Player(),ShipMoney(Player())-cost);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 160,
+                    "Pos.y": 10,
+                    "Parent": -1,
+                    "#": 29,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "if(GetShipRuins(Player())) {",
+                        "    if(GalaxyTechLevel()>=4) {",
+                        "        if(!ShipInPirateClan(Player())) {",
+                        "            if(ShipType(GetShipRuins(Player()))=='WB') {",
+                        "                cost=1000*(gtu*diff)-(rank*1000);",
+                        "                hullsize=cost/800;",
+                        "                AddDialogInject('DialogWB',\"Сегодня мы можем предложить вам сверхсекретную разработку наших специалистов - корпус Гиперион. Согласно вашему военному рангу, покупка корпуса обойдется вам в <cost> cr.\",\"Купить уникальный корпус\",3);",
+                        "            }",
+                        "        }",
+                        "    }",
+                        "}"
+                    ]
+                }
+            ],
+            "Planets": 
+            [
+                {
+                    "Type": "TPlanet",
+                    "Name": "PlanetNew",
+                    "Pos.x": 10,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Race": 62,
+                    "Owner": 62,
+                    "Economy": 14,
+                    "Goverment": 62,
+                    "RangeMin": 0,
+                    "RangeMax": 100,
+                    "Dialog": -1
+                }
+            ],
+            "Ships": 
+            [
+                {
+                    "Type": "TStarShip",
+                    "Name": "",
+                    "Pos.x": 10,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Count": 1,
+                    "Owner": 62,
+                    "Ship.Type": 126,
+                    "Player": true,
+                    "SpeedMin": 0,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Stars": 
+            [
+                {
+                    "Type": "TStar",
+                    "Name": "StarNew",
+                    "Pos.x": 10,
+                    "Pos.y": -20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Constellation": 0,
+                    "Priority": 0,
+                    "NoKling": false,
+                    "NoComeKling": false
+                }
+            ],
+            "Statements": 
+            [
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 350,
+                    "Pos.y": -30,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player())>=cost"
+                    ]
+                }
+            ],
+            "States": 
+            [
+                {
+                    "Type": "TState",
+                    "Name": "StateNew",
+                    "Pos.x": 10,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 0,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                }
+            ],
+            "Variables": 
+            [
+                {
+                    "Type": "TVar",
+                    "Name": "cost",
+                    "Pos.x": 100,
+                    "Pos.y": 90,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "gtu",
+                    "Pos.x": 100,
+                    "Pos.y": 60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "diff",
+                    "Pos.x": 100,
+                    "Pos.y": 120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "rank",
+                    "Pos.x": 160,
+                    "Pos.y": 60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hullsize",
+                    "Pos.x": 160,
+                    "Pos.y": 90,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Dword",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hullrace",
+                    "Pos.x": 160,
+                    "Pos.y": 120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "curbase",
+                    "Pos.x": 100,
+                    "Pos.y": 150,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hullno",
+                    "Pos.x": 170,
+                    "Pos.y": 150,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                }
+            ]
+        }
+    ],
+    "Visual.Links": 
+    [
+        {
+            "Type": "TGraphLink",
+            "Begin": 0,
+            "End": 2,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 1,
+            "End": 2,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 4,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 11,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 6,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 8,
+            "End": 9,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 7,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 7,
+            "End": 17,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 22,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 22,
+            "End": 8,
+            "Nom": 0,
+            "Arrow": true
+        }
+    ],
+    "Rect.Text": 
+    [
+        {
+            "Type": "TGraphRectText",
+            "Rect.Left": -24,
+            "Rect.Top": -85,
+            "Rect.Right": 82,
+            "Rect.Bottom": 148,
+            "FStyle": 1,
+            "FColor": 52063,
+            "BStyle": 0,
+            "BColor": 14474460,
+            "BSize": 1,
+            "BCoef": "0.300000011920929",
+            "AlignX": 0,
+            "AlignY": 1,
+            "AlignRect": false,
+            "Text": "инициализация\r\nскрипта",
+            "Color": 16711680,
+            "Font": "Arial",
+            "FontSize": 7,
+            "fsBold": false,
+            "fsItalic": false,
+            "fsUnderline": false
+        }
+    ],
+    "BlockPar.EC.Total.Strings": 19,
+    "BlockPar.EC": 
+    [
+        {
+            "#": "11",
+            "String": "Ой, он куда-то запропастился, щас поищу этот запрограммированный кусок металла и сразу вернусь!"
+        },
+        {
+            "#": "12",
+            "String": "Закрашивать боевые царапины и отметины, да ни за что в жизни,они мне дороги как память! Мы их получали при наших совместных космических авантюрах!"
+        },
+        {
+            "#": "13",
+            "String": "Красьте <0>!<br>"
+        },
+        {
+            "#": "14",
+            "String": "Красьте <0>!"
+        },
+        {
+            "#": "15",
+            "String": "Красный"
+        },
+        {
+            "#": "16",
+            "String": "Оранжевый"
+        },
+        {
+            "#": "17",
+            "String": "Зелёный"
+        },
+        {
+            "#": "18",
+            "String": "Синий"
+        },
+        {
+            "#": "19",
+            "String": "Фиолетовый"
+        },
+        {
+            "#": "21",
+            "String": "Мы можем предложить вам на выбор 4 цвета. В какой будете перекрашивать?"
+        },
+        {
+            "#": "24",
+            "String": "Конечно буду, еще спрашиваете, красьте <0>!"
+        },
+        {
+            "#": "25",
+            "String": "Опа, действительно, щас поднакоплю деньжат и вернусь!"
+        },
+        {
+            "#": "26",
+            "String": "Рейнджер, у вас нету денег для оплаты наших услуг, поднакопите деньжат и возвращайтесь!"
+        },
+        {
+            "#": "27",
+            "String": "Ваш робот перекрашен, теперь он выглядит гораздо лучше, как-будто только что с конвейера сошел!<br>Вы можете посмотреть на нашу работу в ангаре.<br><0> cr. успешно списаны с вашего счёта."
+        },
+        {
+            "#": "28",
+            "String": "Кроме того, мы можем перекрасить вашего транклюкатора. И как нам известно нижестоящие рангом защитники коалиции не имеют достаточно денежных средств, поэтому мы предоставляем значительные скидки таким пилотам. Согласно вашему рангу скидка составит <0>%, перекраска вашего робота будет стоить <1> cr."
+        },
+        {
+            "#": "3",
+            "String": "Перекрасить транклюкатора"
+        },
+        {
+            "#": "5",
+            "String": "В нашем ангаре нет ни одного вашего <clr>транклюкатора<clrEnd>!"
+        },
+        {
+            "#": "6",
+            "String": "В нашем ангаре есть один ваш <clr>транклюкатор<clrEnd>, будете перекрашивать?"
+        },
+        {
+            "#": "7",
+            "String": "В нашем ангаре есть несколько ваших <clr>транклюкаторов<clrEnd>, какого будете перекрашивать?"
+        }
+    ]
+}

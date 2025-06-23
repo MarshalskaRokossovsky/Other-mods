@@ -1,0 +1,2910 @@
+{
+    "FileID": 573785173,
+    "FileVersion": 8,
+    "ViewPos.x": -701,
+    "ViewPos.y": 19,
+    "ScriptName": "billionairesEvening",
+    "ScriptFileOut": "D:\\Games\\Space Rangers HD - A War Apart\\Mods\\OtherMods\\Man_BillionairesEvening\\data\\Script\\billionairesEvening.scr",
+    "ScriptTextOut": "D:\\Games\\Space Rangers HD - A War Apart\\Mods\\OtherMods\\Man_BillionairesEvening\\CFG\\Rus\\billionairesEvening.txt",
+    "LangDatIn": "",
+    "LangDatOut": "",
+    "MainDatIn": "",
+    "MainDatOut": "",
+    "CacheDatIn": "",
+    "CacheDatOut": "",
+    "ExportLang": false,
+    "Visual.Objects": 
+    [
+        {
+            "DialogAnswers": 
+            [
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 150,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Значит, серьёзное задание, я готов взяться за него",
+                    "AMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 220,
+                    "Pos.y": 170,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Сейчас очень занят, может позже",
+                    "AMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "exit",
+                    "Pos.x": 60,
+                    "Pos.y": 470,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Как скажешь",
+                    "AMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": -90,
+                    "Pos.y": 470,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Хочу услышать брифинг задания",
+                    "AMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": -60,
+                    "Pos.y": 440,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Кто это был?",
+                    "AMsg.Num": "4"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "exit",
+                    "Pos.x": 140,
+                    "Pos.y": 640,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Как скажешь",
+                    "AMsg.Num": "5"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": -90,
+                    "Pos.y": 530,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Ясно, с чего начнём?",
+                    "AMsg.Num": "6"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "exit",
+                    "Pos.x": -90,
+                    "Pos.y": 590,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Задание ясно, приступаю",
+                    "AMsg.Num": "7"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "exit",
+                    "Pos.x": -60,
+                    "Pos.y": 410,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Подожди немного, я сейчас вернусь",
+                    "AMsg.Num": "8"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "exit",
+                    "Pos.x": 30,
+                    "Pos.y": 470,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Уже лечу",
+                    "AMsg.Num": "9"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "exit",
+                    "Pos.x": 0,
+                    "Pos.y": 470,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Готов к стыковке",
+                    "AMsg.Num": "10"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 180,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Агент? Как те девушки спецагенты среди рейнджеров?",
+                    "AMsg.Num": "11"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "exit",
+                    "Pos.x": 200,
+                    "Pos.y": 640,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Рад сотрудничеству",
+                    "AMsg.Num": "12"
+                }
+            ],
+            "DialogMessages": 
+            [
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 150,
+                    "Pos.y": 170,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Ты прав <name(Player())>, нужна помощь в одном деликатном деле, а точнее нашему агенту коалиции Такасуми, сейчас она на спецзадании. Подробности твоего участия в этом деле ты получишь на месте. Сейчас она находится в системе <varStarDestinationName> на планете <varPlanetDestinationName>. Лети на орбиту планеты, там она тебя встретит.",
+                    "DMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 60,
+                    "Pos.y": 440,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Привет <Name(Player())>, я получила сообщение, что командование выслало тебя мне на помощь. Сейчас мне надо разобраться с <Name(IdToShip(varSnitchShipId))>, помоги мне, а после поговорим.",
+                    "DMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": -90,
+                    "Pos.y": 410,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Наконец-то с ним покончено, я давно охотилась на этого гада. Значит тебе нужны подробности задания?",
+                    "DMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": -60,
+                    "Pos.y": 470,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "<varSnitchShipName> был информатор <clr>Хонована Дока<clrEnd>. И-за его действий был убит агент коалиции <clr>Мейдзи Куда<clrEnd> и похищен важный голодиск. Собственно для решения этой проблемы ты и здесь.",
+                    "DMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 140,
+                    "Pos.y": 600,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Эй, рейнджер, не до тебя сейчас! У меня на хвосте эта чертова Такасуми, сначала я разберусь с ней, а потом и поговорим.",
+                    "DMsg.Num": "4"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": -90,
+                    "Pos.y": 500,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Если в кратце: Есть один ужасный человек, его зовут <clr>Хонован Док<clrEnd>. Он весьма бога и влиятелен, а еще он контрабандист и имеет большой список криминальных дел, но меня послала коалиция за ним, из-за убийства им нашего агента и похищении голодиска. Скоро он устраивает вечеринку с его сообщниками. Наша задача пробраться в его логово и выкрасть голодиск. По завершению тебе насчет будет переведено <varReward> cr.\r\n",
+                    "DMsg.Num": "5"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": -90,
+                    "Pos.y": 560,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Господин Док любит роскошь и древности. Твоя задача взять статую, которую я тебе сейчас сброшу и доставить её в систему <varStarDestinationName>, на планету <varPlanetDestinationName>. На планете я тебя встречу и объясню план действий.",
+                    "DMsg.Num": "6"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": 440,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Ну чего ждешь? Доставь статую по назначению.",
+                    "DMsg.Num": "7"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 0,
+                    "Pos.y": 440,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Подожди, сейчас подлечу и сброшу груз.",
+                    "DMsg.Num": "8"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 220,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Нет, те девушки в спецотделе по борьбе с пи.. гхм. Вообщем, Такасуми из другого отдела. Это всё что тебе нужно знать.",
+                    "DMsg.Num": "9"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 200,
+                    "Pos.y": 600,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Спасибо, что помог расправиться с этой сучкой Такасуми, она давно создаёт проблемы господину Хоновану Доку. В любом случае, держи <varReward> cr. в благодарность.",
+                    "DMsg.Num": "10"
+                }
+            ],
+            "Dialogs": 
+            [
+                {
+                    "Type": "TDialog",
+                    "Name": "Quest_start",
+                    "Pos.x": 150,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "Takasumi_meeting",
+                    "Pos.x": -90,
+                    "Pos.y": 350,
+                    "Parent": -1,
+                    "#": 0
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "Snitch",
+                    "Pos.x": 140,
+                    "Pos.y": 530,
+                    "Parent": -1,
+                    "#": 0
+                }
+            ],
+            "Ethers": 
+            [
+                {
+                    "Type": "TEther",
+                    "Name": "",
+                    "Pos.x": 220,
+                    "Pos.y": 290,
+                    "Parent": -1,
+                    "#": 0,
+                    "Ether.Type": 3,
+                    "Unique": "95C91742-2A4C-4BAF-9CD7-23DD70DDE546",
+                    "Msg": "Вам нужно отправиться в систему <varStarDestinationName> на планету <varPlanetDestinationName>. Дождитесь агента <clr>Такасуми<clrEnd> на орбите планеты и получите дальнейшие инструкции.",
+                    "Ship1": "",
+                    "Ship2": "",
+                    "Ship3": ""
+                },
+                {
+                    "Type": "TEther",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": 830,
+                    "Parent": -1,
+                    "#": 0,
+                    "Ether.Type": 3,
+                    "Unique": "95C91742-2A4C-4BAF-9CD7-23DD70DDE546",
+                    "Msg": "Ваша цель привезти статую в систему <varStarDestinationName>, на планету <varPlanetDestinationName>, где Хонован Док устраивает вечеринку. За это вы получите <varReward> cr.",
+                    "Ship1": "",
+                    "Ship2": "",
+                    "Ship3": ""
+                },
+                {
+                    "Type": "TEther",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": 920,
+                    "Parent": -1,
+                    "#": 0,
+                    "Ether.Type": 5,
+                    "Unique": "95C91742-2A4C-4BAF-9CD7-23DD70DDE546",
+                    "Msg": "Задание провалено, агент коалиции убит",
+                    "Ship1": "",
+                    "Ship2": "",
+                    "Ship3": ""
+                },
+                {
+                    "Type": "TEther",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": 890,
+                    "Parent": -1,
+                    "#": 0,
+                    "Ether.Type": 5,
+                    "Unique": "95C91742-2A4C-4BAF-9CD7-23DD70DDE546",
+                    "Msg": "Задание провалено. Коалиция была уничтожена и вам некому сдавать задание.",
+                    "Ship1": "",
+                    "Ship2": "",
+                    "Ship3": ""
+                },
+                {
+                    "Type": "TEther",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": 800,
+                    "Parent": -1,
+                    "#": 0,
+                    "Ether.Type": 4,
+                    "Unique": "95C91742-2A4C-4BAF-9CD7-23DD70DDE546",
+                    "Msg": "Задание выполнено, на ваш счет было переведено <varReward> cr. и вы заработали 800 опыта, теперь можно и отдохнуть.",
+                    "Ship1": "",
+                    "Ship2": "",
+                    "Ship3": ""
+                },
+                {
+                    "Type": "TEther",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": 770,
+                    "Parent": -1,
+                    "#": 0,
+                    "Ether.Type": 5,
+                    "Unique": "95C91742-2A4C-4BAF-9CD7-23DD70DDE546",
+                    "Msg": "Задание провалено. Вы отказались выкрасть голодиск у Дока.",
+                    "Ship1": "",
+                    "Ship2": "",
+                    "Ship3": ""
+                },
+                {
+                    "Type": "TEther",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": 860,
+                    "Parent": -1,
+                    "#": 0,
+                    "Ether.Type": 5,
+                    "Unique": "95C91742-2A4C-4BAF-9CD7-23DD70DDE546",
+                    "Msg": "Задание провалено. Статуя была уничтожена, без неё вам не попасть на вечеринку к Хоновану Доку.",
+                    "Ship1": "",
+                    "Ship2": "",
+                    "Ship3": ""
+                },
+                {
+                    "Type": "TEther",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Ether.Type": 5,
+                    "Unique": "95C91742-2A4C-4BAF-9CD7-23DD70DDE546",
+                    "Msg": "Вы напали на агента.",
+                    "Ship1": "",
+                    "Ship2": "",
+                    "Ship3": ""
+                }
+            ],
+            "Groups": 
+            [
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupNew",
+                    "Pos.x": 60,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Owner": 62,
+                    "Group.Type": 126,
+                    "CntShipMin": 1,
+                    "CntShipMax": 1,
+                    "SpeedMin": 100,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": true,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "DistSearch": 10000,
+                    "Dialog": -1,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                },
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupTakasumi",
+                    "Pos.x": 410,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Owner": 9,
+                    "Group.Type": 3,
+                    "CntShipMin": 0,
+                    "CntShipMax": 0,
+                    "SpeedMin": 500,
+                    "SpeedMax": 10000,
+                    "Weapon": 1,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": false,
+                    "StatusTraderMin": 10,
+                    "StatusTraderMax": 30,
+                    "StatusWarriorMin": 20,
+                    "StatusWarriorMax": 60,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 50,
+                    "DistSearch": 10000,
+                    "Dialog": 43,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                },
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupSnitch",
+                    "Pos.x": 560,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Owner": 62,
+                    "Group.Type": 9,
+                    "CntShipMin": 0,
+                    "CntShipMax": 0,
+                    "SpeedMin": 100,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": false,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "DistSearch": 10000,
+                    "Dialog": 51,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Items": 
+            [
+                {
+                    "Type": "TItem",
+                    "Name": "RachStat",
+                    "Pos.x": 310,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Class": 5,
+                    "Item.Type": 0,
+                    "Size": 10,
+                    "Level": 1,
+                    "Radius": 150,
+                    "Owner": 6,
+                    "Useless": ""
+                }
+            ],
+            "Operations": 
+            [
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 90,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Global",
+                    "Code": 
+                    [
+                        "GRun()"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -200,
+                    "Pos.y": 730,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "AddDialogInject('Quest_start','',\"Слышал, у вас есть деликтаное задание?\",1);",
+                        "//SFT('Вставка диалога на станции');",
+                        "//SFT('GetTalkShip равен: '+ GetTalkShip());"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 220,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "//SFT('размер массива 1: '+ ArrayDim(varStarsList));",
+                        "//SFT('размер массива 2: '+ ArrayDim(varStarsListFiltered));",
+                        "//SFT('Количество звездных систем: '+ GalaxyStars());",
+                        "//SFT('Квест начался: '+ varQuestStarted);",
+                        "ArrayClear(varStarsListFiltered);",
+                        "ArrayClear(varStarsList);",
+                        "varSystemGotQuest = ShipStar(Player());",
+                        "varCount = 0;",
+                        "",
+                        "while( varCount < GalaxyStars() ){",
+                        " if(StarOwner( GalaxyStar(varCount) ) == 0){",
+                        "  varCoalitionSystems = varCoalitionSystems + 1;",
+                        "  ArrayAdd(varStarsList, GalaxyStar(varCount));",
+                        "  //SFT('размер массива 1: '+ count(varStarsList));",
+                        "  //SFT('Id системы коалиции: '+ Id( GalaxyStar(varCount) ));",
+                        " }",
+                        " varCount = varCount + 1;",
+                        "}",
+                        "//SFT('Всего было найдено систем коалиции: '+ varCoalitionSystems);",
+                        "",
+                        "//Циклом считаю системы коалиции"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varCount = 1;",
+                        "",
+                        "if(varCoalitionSystems > 1){ ",
+                        " //SFT('размер массива 1: '+ count(varStarsList));",
+                        " //SFT('размер массива 2: '+ count(varStarsListFiltered));",
+                        " while(varCount < count(varStarsList)){",
+                        "  //SFT('цикл в массиве№: '+ varCount);",
+                        "  //SFT('содержимое в массиве: '+ varStarsList[varCount]);",
+                        "  if(varSystemGotQuest != varStarsList[varCount]){",
+                        "   ArrayAdd(varStarsListFiltered, varStarsList[varCount]);",
+                        "   //SFT('размер массива 2: '+ count(varStarsListFiltered));",
+                        "  }",
+                        "  varCount = varCount + 1;",
+                        " }",
+                        "}",
+                        "//SFT('размер массива 2: '+ count(varStarsListFiltered));",
+                        "",
+                        "if(varCoalitionSystems == 1) {",
+                        " ArrayAdd(varStarsListFiltered, varStarsList[varCount]);",
+                        "}",
+                        "",
+                        "//условие: систем коалиции больше 1",
+                        "//отфильтровать системы коалиции (убрать систему где получен квест)",
+                        "//Если осталась 1 система коалиции, то взять её (ту где сейчас игрок)"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -210,
+                    "Pos.y": -190,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Init",
+                    "Code": 
+                    [
+                        "varStarsList = newarray(1);",
+                        "varStarsListFiltered = newarray(1);",
+                        "//SFT('размер массива 1: '+ ArrayDim(varStarsList));",
+                        "//SFT('размер массива 2: '+ ArrayDim(varStarsListFiltered));"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 300,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varStarDestination = Rnd( 1, count(varStarsListFiltered)-1 );",
+                        "varStarDestination = varStarsListFiltered[varStarDestination];",
+                        "varStarDestinationName = StarName(varStarDestination);",
+                        "varStarDestinationId = Id(varStarDestination);",
+                        "",
+                        "//SFT('Адрес системы назначения: '+ varStarDestination);",
+                        "//SFT('Название системы: '+ StarName(varStarDestination));",
+                        "",
+                        "//varStarDestination = Id( varStarDestination );",
+                        "//SFT('Id Системы назначения: '+ varStarDestination);",
+                        "//SFT('Название системы: '+ StarName(varStarDestination));",
+                        "varPlanetDestination = FindPlanet(varStarDestination,'NotMaloc,NotPeleng,NotPeople,NotFei,NotGaal,NotKling,NotPirateClan',0,100);",
+                        "varPlanetDestinationName = PlanetName(varPlanetDestination);",
+                        "varPlanetDestinationId = Id(varPlanetDestination);",
+                        "//SFT('Адрес планеты: '+varPlanetDestination);",
+                        "",
+                        "//Подбор случайной звезды из отфильтрованного массива для квеста.",
+                        "//Поиск необитаемой планеты в любом месте звездной системы."
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 150,
+                    "Pos.y": 290,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStarted = 'yes';",
+                        "//SFT('Квест начался: '+ varQuestStarted);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 620,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "//SFT('Игрок в системе: '+ ShipStar(Player()));",
+                        "if(ShipStar(Player()) == GalaxyStar(varStarDestinationId-1)){",
+                        " //SFT( 'Расстояние до планеты: '+ Dist(Player(),IdToPlanet(varPlanetDestinationId)) );",
+                        " //SFT('varQuestStage: '+ varQuestStage);",
+                        " if( Dist(Player(),IdToPlanet(varPlanetDestinationId)) < 350 && varQuestStage == 0 ) {",
+                        "  //SFT('Игрок приблизился к квестовой планете на расстояние 350');",
+                        "  //SFT( 'Раса планеты: '+ PlanetRace(IdToPlanet(varPlanetDestinationId)) );",
+                        "  PlanetRace(IdToPlanet(varPlanetDestinationId),2);",
+                        "  //SFT( 'Раса планеты после: '+ PlanetRace(IdToPlanet(varPlanetDestinationId)) );",
+                        "  varTakasumiShip = BuyRanger(IdToPlanet(varPlanetDestinationId));",
+                        "  SetName(varTakasumiShip, 'Такасуми Ото');",
+                        "  //ShipOwner(varTakasumiShip, 2);",
+                        "  ShipPilotRace(varTakasumiShip, 2);",
+                        "  ShipFace(varTakasumiShip, 80);",
+                        "  ShipJoin(GroupTakasumi, varTakasumiShip);",
+                        "  //SFT('Серия корпуса: '+HullSeries(varTakasumiShip));",
+                        "  OrderTakeOff(varTakasumiShip);",
+                        "  //SFT('Раса корабля: '+ ShipPilotRace(varTakasumiShip));",
+                        "  //SFT('Такасуми адрес: '+ varTakasumiShip);",
+                        "  varTakasumiShipId = Id(varTakasumiShip);",
+                        "  //SFT('Портрет корабля: '+ ShipFace(varTakasumiShip));",
+                        "  varRachehanStatue = CreateQuestItem('Usl_RachehanStatue');",
+                        "  AddItemToShip( varTakasumiShip, varRachehanStatue );",
+                        "  ShipRaiseRank(varTakasumiShip);",
+                        "  //SFT('Привязать '+ varRachehanStatue +' к RachStat');",
+                        "  LinkItemToScript(varRachehanStatue, RachStat);",
+                        "  //SFT('Квест. предемет привязан');",
+                        "  varRachehanStatueId = Id(varRachehanStatue);",
+                        "  //SFT('Money Tkasu: '+ ShipMoney(varTakasumiShip));",
+                        "  ShipStatus(varTakasumiShip, 0, 20);",
+                        "  ShipStatus(varTakasumiShip, 1, 30);",
+                        "  ShipStatus(varTakasumiShip, 2, 50);",
+                        "  ",
+                        "  PlanetRace(IdToPlanet(varPlanetDestinationId),0);",
+                        "  varSnitchShip = BuyPirate( IdToPlanet(varPlanetDestinationId) );",
+                        "  varSnitchShipId = Id(varSnitchShip);",
+                        "  varSnitchShipName = Name(varSnitchShip);",
+                        "  ShipJoin(GroupSnitch, varSnitchShip);",
+                        "  OrderTakeOff(varSnitchShip);",
+                        "  //SFT('Money Snitch: '+ ShipMoney(varSnitchShip));",
+                        "",
+                        "  varQuestStage = 1;",
+                        "  //SFT('varQuestStage в конце: '+ varQuestStage);",
+                        " }",
+                        "}",
+                        "//SFT( 'Адрес стукача: '+ IdToShip(varSnitchShipId) );",
+                        "//SFT( 'Коалиция побеждена?: '+ CoalitionDefeated() );",
+                        "//Отслеживаем когда игрок залетит в квестовую систему при стадии квеста 0",
+                        "//Отслеживаем расстояние от игрока до квестовой планеты",
+                        "//Создаю корабль рейнджер/имя/раса и приказываю взлететь",
+                        "//Создаю корабль пират и приказываю взлететь",
+                        "//Если стадия квеста 0 и игрок на расстоянии 350 от планеты, создать 2 коробля и взлететь им"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -230,
+                    "Pos.y": 670,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "//SFT('замена диалога Такасуми');",
+                        "AddDialogOverride('Takasumi_meeting',2);",
+                        "",
+                        "//Если диалог начался с кораблём и это корабль агента",
+                        "//Замена стандартного диалога агенту"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -230,
+                    "Pos.y": 700,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "AddDialogOverride('Snitch', 3);",
+                        "//SFT('Замена диалога стукача');",
+                        "//Замена стандартного диалога стукача"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 650,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage = 2;",
+                        "//ChangeState( 'FollowToPlayer', IdToShip(varTakasumiShipId) );",
+                        "SFT('Стукач мёртв');",
+                        "//Если стадия квеста 1 и стукача по Id нет в игре(уничтожен)",
+                        "//Агент следует за игроком"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 830,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "//SFT('Такасуми собирается сбросить предмет');",
+                        "DropScriptItem(IdToShip(varTakasumiShipId), RachStat);",
+                        "GQuestVarExt_TQHealth = 100;",
+                        "//SFT('GQuestVarExt_TQHealth: '+ GQuestVarExt_TQHealth);",
+                        "varQuestStage = 4;",
+                        "//SFT('Такасуми сбросила квестовый предмет');",
+                        "//Агент сбрасывает квестовый предмет",
+                        "//Стадия квеста 4"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -60,
+                    "Pos.y": 500,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varSystemGotQuest = ShipStar(Player());",
+                        "varCount = 0;",
+                        "varCoalitionSystems = 0;",
+                        "ArrayClear(varStarsList);",
+                        "ArrayClear(varStarsListFiltered);",
+                        "",
+                        "while( varCount < GalaxyStars() ){",
+                        " if(StarOwner(GalaxyStar(varCount)) == 0){",
+                        "  ArrayAdd(varStarsList, GalaxyStar(varCount));",
+                        "  varCoalitionSystems = varCoalitionSystems + 1;",
+                        " }",
+                        " varCount = varCount + 1;",
+                        "}",
+                        "",
+                        "varCount = 1;",
+                        "if(varCoalitionSystems > 1){",
+                        "  while( varCount < count(varStarsList) ){",
+                        "   if(varSystemGotQuest != varStarsList[varCount]){",
+                        "    ArrayAdd(varStarsListFiltered, varStarsList[varCount]);",
+                        "   }",
+                        "   varCount = varCount + 1;",
+                        " }",
+                        "}",
+                        "if(varCoalitionSystems == 1){",
+                        " ArrayAdd(varStarsListFiltered, varStarsList[varCount]);",
+                        "}",
+                        "",
+                        "varStarDestination = Rnd( 1, count(varStarsListFiltered)-1 );",
+                        "varStarDestination = varStarsListFiltered[varStarDestination];",
+                        "varStarDestinationName = StarName(varStarDestination);",
+                        "varStarDestinationId = Id(varStarDestination);",
+                        "//SFT('Название системы назначение: '+ StarName(varStarDestination));",
+                        "varPlanetDestination = FindPlanet(varStarDestination,'NotMaloc,NotPeleng,NotPeople,NotFei,NotGaal,NotKling,NotPirateClan',0,100);",
+                        "varPlanetDestinationName = PlanetName(varPlanetDestination);",
+                        "varPlanetDestinationId = Id(varPlanetDestination);",
+                        "//SFT('Имя квестовой планеты: '+varPlanetDestinationName);",
+                        "",
+                        "",
+                        "//Поиск и фильтрация систем: Подходит коалициия",
+                        "//Если систем коалиции больше 1 //Поиск. Система не является системой где игрок получил квест",
+                        "//Иначе если систем коалиции = 1 //Добавлении единственной системы",
+                        "//Подбор случайной подходящей по условиям системы из списка",
+                        "//Поиск новой подходящей планеты для квеста"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 920,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "//SFT('состояние агента: '+ IdToShip(varTakasumiShipId));",
+                        "varQuestStage = 5;",
+                        "//Если стадия квеста 1 и вместо стукача по Id нет агента"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 890,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage = 15;",
+                        "//Если коалиция побеждена квест провален"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 310,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "SFT('EndState: '+ EndState );"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 710,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "SFT( 'Игрок на планете: '+ GetShipPlanet(Player()) );",
+                        "SFT( 'Квестовый предмет находится: '+ ItemIn(RachStat, Player()) );",
+                        "SFT('GQuestVarExt_QuestState: '+ GQuestVarExt_QuestState);",
+                        "SFT('Состояние GQuestStatus: '+ GQuestStatus);",
+                        "SFT('ItemExist: '+ItemExist(RachStat));",
+                        "",
+                        "if( GetShipPlanet(Player()) == IdToPlanet(varPlanetDestinationId)) {",
+                        " //SFT('Игрок на планете Хонована Дока');",
+                        " if( ItemIn(RachStat, Player()) ){",
+                        "  StartTextQuest('billionairesEvening', 'Вернуться на корабль', 'задание провалено');",
+                        "  //SFT('Начать ТК первый раз');",
+                        " }",
+                        "}",
+                        "//SFT( 'У игрока денег до получения: '+ ShipMoney(Player()) );",
+                        "",
+                        "//Если стадия квеста 3 и ТК не начинался",
+                        "//Если игрок находится на планете назначения и у него в трюме квестовый прдемет",
+                        "//Начать Текстовый квест"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 680,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "SFT('Состояние GQuestStatus: '+ GQuestStatus);",
+                        "if( ItemIn(RachStat, Player()) ){",
+                        "  StartTextQuest('billionairesEvening', 'Вернуться на корабль','задание провалено');",
+                        "}",
+                        "SFT('Вы проиграли во время ТК GQuestVarExt_QuestState=-1');",
+                        "//Если игрок проиграл, то перезапуск"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 800,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage = 5;",
+                        "//SFT('Состояние GQuestStatus: '+ GQuestStatus);",
+                        "//SFT('Выбросить скриптовой предмет');",
+                        "",
+                        "GetItemFromShip( Player(), FindItemInShip( Player(), RachStat ) );",
+                        "FreeItem(RachStat);",
+                        "",
+                        "//SFT('У игрока денег до получения: '+ ShipMoney(Player()));",
+                        "ShipMoney( Player(), ShipMoney(Player()) + varReward );",
+                        "//SFT( 'У игрока теперь опыта: '+ ShipFreeExp(Player())+800 );",
+                        "ShipFreeExp( Player(), ShipFreeExp(Player())+800 );",
+                        "",
+                        "//если игрок успешно завершил ТК, то стадия 4",
+                        "//удаление квестового прдемета из трюма",
+                        "//Дать игроку денег за завершение задания",
+                        "//Дать игроку 800 очков опыта"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 770,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "//SFT('Состояние GQuestStatus: '+ GQuestStatus);",
+                        "//SFT('varRachehanStatue: '+ varRachehanStatue);",
+                        "varQuestStage = 5;",
+                        "//SFT('изъять скриптовый предмет');",
+                        "//SFT('Предметы в трюме число: '+ ShipItems(Player()) );",
+                        "",
+                        "//SFT('ItemExist: '+ItemExist(RachStat));",
+                        "//SFT('FindItemInSHip: '+ FindItemInShip(Player(), RachStat));",
+                        "GetItemFromShip(Player(), FindItemInShip(Player(), RachStat) );",
+                        "FreeItem(RachStat);",
+                        "//SFT('ItemExist: '+ItemExist(RachStat));",
+                        "",
+                        "//если игрок отказался от задания в ТК",
+                        "//Изъять и удалить квестовый предмет из трюма игрока"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 950,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "//SFT('Стукач убит, но игрок не успел взять задание');",
+                        "varQuestStage = 5;",
+                        "//стукач убит, но игрок  не успел взять задание у агента"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -90,
+                    "Pos.y": 620,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage = 3;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 860,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage = 5;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 590,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varRewardDayCount = varRewardDayCount + 1;",
+                        "//SFT('В следующем году награда составит: '+ ((varReward/100 * 10) + varReward));",
+                        "",
+                        "if(varRewardDayCount >= 365){",
+                        " varRewardDayCount = 0;",
+                        " varReward = (varReward/100 * varRewardPercent) + varReward;",
+                        "}",
+                        "",
+                        "//Если стадия квеста меньше 3",
+                        "//Раз в год увеличивать награду за квест на varRewardPercent %"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 560,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varCheckYears = CurTurn()/365;",
+                        "varCount2 = 1;",
+                        "//SFT('Проверка года для награды');",
+                        "",
+                        "if(varCheckYears > 0){",
+                        " while( varCount2 <= varCheckYears ){",
+                        "  varReward = (varReward/100*varRewardPercent) + varReward;",
+                        "  varCount2 = varCount2 + 1;",
+                        " }",
+                        "}",
+                        "",
+                        "varCount2 = 0;",
+                        "varCheckActScriptInMiddleGame = 1;",
+                        "",
+                        "//проверить сколько лет прошло от начала игры",
+                        "//если прошло от 1 года, увелить награду varRewardPercent % столько раз, сколько прошло лет"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": 740,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "//SFT('Состояние GQuestStatus: '+ GQuestStatus);",
+                        "//SFT('Состояние GQuestVarExt_TQHealth: '+ GQuestVarExt_TQHealth);",
+                        "if( GetShipPlanet(Player()) == IdToPlanet(varPlanetDestinationId)) {",
+                        " if( ItemIn(RachStat, Player()) ){",
+                        "   StartTextQuest('billionairesEvening', 'Вернуться на корабль','задание провалено');",
+                        " }",
+                        "}",
+                        "//SFT('Вы умерли во время ТК GQuestVarExt_TQHealth= 0');",
+                        "//Если игрок умер, то перезапуск"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 380,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage = 5;",
+                        "PlayerAtackedAgent = 1;",
+                        "//SFT('Игрок атаковал агента');",
+                        "//SFT('Атака на агента: '+ Hit(IdToShip(varTakasumiShipId),0) );"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 170,
+                    "Pos.y": 600,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage = 6;",
+                        "ShipMoney( Player(), ShipMoney(Player()) + varReward );"
+                    ]
+                }
+            ],
+            "Planets": 
+            [
+                {
+                    "Type": "TPlanet",
+                    "Name": "PlanetNew",
+                    "Pos.x": 60,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Race": 62,
+                    "Owner": 62,
+                    "Economy": 14,
+                    "Goverment": 62,
+                    "RangeMin": 0,
+                    "RangeMax": 100,
+                    "Dialog": -1
+                },
+                {
+                    "Type": "TPlanet",
+                    "Name": "PlanetNew",
+                    "Pos.x": 410,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Race": 62,
+                    "Owner": 128,
+                    "Economy": 14,
+                    "Goverment": 62,
+                    "RangeMin": 0,
+                    "RangeMax": 100,
+                    "Dialog": -1
+                }
+            ],
+            "Ships": 
+            [
+                {
+                    "Type": "TStarShip",
+                    "Name": "",
+                    "Pos.x": 60,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Count": 1,
+                    "Owner": 62,
+                    "Ship.Type": 126,
+                    "Player": true,
+                    "SpeedMin": 0,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Stars": 
+            [
+                {
+                    "Type": "TStar",
+                    "Name": "StarNew",
+                    "Pos.x": 60,
+                    "Pos.y": 140,
+                    "Parent": -1,
+                    "#": 0,
+                    "Constellation": 0,
+                    "Priority": 0,
+                    "NoKling": false,
+                    "NoComeKling": false
+                }
+            ],
+            "Statements": 
+            [
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -260,
+                    "Pos.y": 730,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "GetShipRuins(Player())>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -230,
+                    "Pos.y": 730,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipType(GetShipRuins(Player()))=='RC' && varQuestStarted=='no'"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 620,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStarted=='yes' && varQuestStage == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 60,
+                    "Pos.y": 410,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -90,
+                    "Pos.y": 390,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 2"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -260,
+                    "Pos.y": 670,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "GetTalkShip() > 0 && GetTalkShip() == IdToShip(varTakasumiShipId)"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -260,
+                    "Pos.y": 700,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "GetTalkShip() > 0 && GetTalkShip() == IdToShip(varSnitchShipId)"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 650,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 1 && IdToShip(varSnitchShipId) == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 920,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 1 && IdToShip(varTakasumiShipId) == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 890,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "CoalitionDefeated() == 1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 360,
+                    "Pos.y": 390,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 4"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 360,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 2 || varQuestStage == 3"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 710,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 4 && GQuestVarExt_QuestState == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 830,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 3 && Dist( Player(),IdToShip(varTakasumiShipId) ) <= 300"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 0,
+                    "Pos.y": 410,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 3"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 680,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 4 && GQuestVarExt_QuestState == -1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 800,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 4 && GQuestVarExt_QuestState == 1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 770,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 4 && GQuestVarExt_QuestState == -2"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -70,
+                    "Pos.y": 950,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 2 || varQuestStage == 3"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": 410,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 4"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 950,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "IdToShip(varTakasumiShipId) == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 860,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 4 && ItemExist(RachStat) == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 590,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage < 3"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 560,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varCheckActScriptInMiddleGame == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 5"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 140,
+                    "Pos.y": 570,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -40,
+                    "Pos.y": 740,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 4 && GQuestVarExt_TQHealth == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 410,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "Hit(IdToShip(varTakasumiShipId),0)"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 170,
+                    "Pos.y": 570,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "varQuestStage == 5 && IdToShip(varTakasumiShipId) == 0",
+                        ""
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 200,
+                    "Pos.y": 570,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "PlayerAtackedAgent == 1"
+                    ]
+                }
+            ],
+            "States": 
+            [
+                {
+                    "Type": "TState",
+                    "Name": "StateNew",
+                    "Pos.x": 60,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 0,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                },
+                {
+                    "Type": "TState",
+                    "Name": "AgentAtackEnemy",
+                    "Pos.x": 410,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 2,
+                    "MoveObj": 33,
+                    "Attack.Count": 1,
+                    "Attack.Items": 
+                    [
+                        {
+                            "Target.0": 33
+                        }
+                    ],
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                },
+                {
+                    "Type": "TState",
+                    "Name": "StateSnitch",
+                    "Pos.x": 560,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 2,
+                    "MoveObj": 30,
+                    "Attack.Count": 1,
+                    "Attack.Items": 
+                    [
+                        {
+                            "Target.0": 30
+                        }
+                    ],
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                },
+                {
+                    "Type": "TState",
+                    "Name": "FollowToPlayer",
+                    "Pos.x": 360,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 2,
+                    "MoveObj": 3,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                },
+                {
+                    "Type": "TState",
+                    "Name": "free",
+                    "Pos.x": 410,
+                    "Pos.y": 390,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 5,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                },
+                {
+                    "Type": "TState",
+                    "Name": "free",
+                    "Pos.x": 560,
+                    "Pos.y": 380,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 5,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                },
+                {
+                    "Type": "TState",
+                    "Name": "free2",
+                    "Pos.x": 500,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 5,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                }
+            ],
+            "Variables": 
+            [
+                {
+                    "Type": "TVar",
+                    "Name": "varStarsList",
+                    "Pos.x": -300,
+                    "Pos.y": -190,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varPlanetDestination",
+                    "Pos.x": -300,
+                    "Pos.y": -130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varCount",
+                    "Pos.x": -300,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varCoalitionSystems",
+                    "Pos.x": -300,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varSystemGotQuest",
+                    "Pos.x": -300,
+                    "Pos.y": -90,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varStarsListFiltered",
+                    "Pos.x": -300,
+                    "Pos.y": -170,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varCount2",
+                    "Pos.x": -300,
+                    "Pos.y": -30,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varStarDestination",
+                    "Pos.x": -300,
+                    "Pos.y": -110,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varStarDestinationName",
+                    "Pos.x": -160,
+                    "Pos.y": -110,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varPlanetDestinationName",
+                    "Pos.x": -160,
+                    "Pos.y": -130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varQuestStarted",
+                    "Pos.x": -300,
+                    "Pos.y": -10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Str",
+                    "Init": "no",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varStarDestinationId",
+                    "Pos.x": 10,
+                    "Pos.y": -110,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varPlanetDestinationId",
+                    "Pos.x": 10,
+                    "Pos.y": -130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varDistance",
+                    "Pos.x": -300,
+                    "Pos.y": 10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varQuestStage",
+                    "Pos.x": -300,
+                    "Pos.y": 30,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varTakasumiShip",
+                    "Pos.x": -310,
+                    "Pos.y": 400,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varSnitchShip",
+                    "Pos.x": 180,
+                    "Pos.y": 400,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varTakasumiShipId",
+                    "Pos.x": -310,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varSnitchShipId",
+                    "Pos.x": 180,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varRachehanStatue",
+                    "Pos.x": -300,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varSnitchShipName",
+                    "Pos.x": 180,
+                    "Pos.y": 440,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "GQuestVarExt_QuestState",
+                    "Pos.x": -650,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": true
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "GQuestVarExt_TQHealth",
+                    "Pos.x": -650,
+                    "Pos.y": -40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "100",
+                    "Global": true
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varReward",
+                    "Pos.x": -300,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "4000",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varRachehanStatueId",
+                    "Pos.x": -300,
+                    "Pos.y": 120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varRewardDayCount",
+                    "Pos.x": -300,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varCheckYears",
+                    "Pos.x": -160,
+                    "Pos.y": 40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varRewardPercent",
+                    "Pos.x": -160,
+                    "Pos.y": 60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "10",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "varCheckActScriptInMiddleGame",
+                    "Pos.x": -160,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "PlayerAtackedAgent",
+                    "Pos.x": -300,
+                    "Pos.y": 150,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                }
+            ]
+        }
+    ],
+    "Visual.Links": 
+    [
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 4,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 2,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 0,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 6,
+            "End": 10,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 10,
+            "End": 7,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 11,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 15,
+            "End": 17,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 17,
+            "End": 22,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 8,
+            "End": 15,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 24,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 11,
+            "End": 29,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 29,
+            "End": 27,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 38,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 33,
+            "End": 38,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 33,
+            "End": 39,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 40,
+            "End": 32,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 42,
+            "End": 44,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 43,
+            "End": 45,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 45,
+            "End": 42,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 43,
+            "End": 46,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 46,
+            "End": 47,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 47,
+            "End": 48,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 47,
+            "End": 49,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 49,
+            "End": 50,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 50,
+            "End": 48,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 52,
+            "End": 53,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 55,
+            "End": 57,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 59,
+            "End": 60,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 61,
+            "End": 62,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 48,
+            "End": 63,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 63,
+            "End": 65,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 65,
+            "End": 64,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 64,
+            "End": 66,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 47,
+            "End": 67,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 69,
+            "End": 68,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 63,
+            "End": 70,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 71,
+            "End": 73,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 73,
+            "End": 72,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 77,
+            "End": 78,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 31,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 76,
+            "End": 80,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 80,
+            "End": 79,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 81,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 81,
+            "End": 82,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 81,
+            "End": 76,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 83,
+            "End": 30,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 84,
+            "End": 85,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 88,
+            "End": 69,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 43,
+            "End": 90,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 89,
+            "End": 91,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 78,
+            "End": 93,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 92,
+            "End": 94,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 95,
+            "End": 96,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 96,
+            "End": 97,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 98,
+            "End": 99,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 99,
+            "End": 101,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 103,
+            "End": 72,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 66,
+            "End": 104,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 106,
+            "End": 107,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 90,
+            "End": 106,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 43,
+            "End": 105,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 105,
+            "End": 89,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 102,
+            "End": 108,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 108,
+            "End": 103,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 110,
+            "End": 111,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 111,
+            "End": 112,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 113,
+            "End": 114,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 118,
+            "End": 119,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 39,
+            "End": 121,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 121,
+            "End": 122,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 51,
+            "End": 123,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 123,
+            "End": 52,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 124,
+            "End": 125,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 126,
+            "End": 127,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 126,
+            "End": 128,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 79,
+            "End": 126,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 126,
+            "End": 129,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 76,
+            "End": 126,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 130,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 130,
+            "End": 131,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 131,
+            "End": 11,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 131,
+            "End": 24,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 126,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 51,
+            "End": 132,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 132,
+            "End": 135,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 135,
+            "End": 133,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 133,
+            "End": 136,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 136,
+            "End": 137,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 8,
+            "End": 9,
+            "Nom": 0,
+            "Arrow": true
+        }
+    ],
+    "Rect.Text": 
+    [
+        {
+            "Type": "TGraphRectText",
+            "Rect.Left": -729,
+            "Rect.Top": -202,
+            "Rect.Right": -369,
+            "Rect.Bottom": -90,
+            "FStyle": 0,
+            "FColor": 10713344,
+            "BStyle": 0,
+            "BColor": 10264775,
+            "BSize": 1,
+            "BCoef": "0.300000011920929",
+            "AlignX": -1,
+            "AlignY": -1,
+            "AlignRect": false,
+            "Text": "-------Для текстового квеста--------\r\nGQuestVarExt_QuestState:\r\n-2 — refuseAndloose; -1 — loose; 0 — not started; 1 finished\r\n\r\nGQuestVarExt_TQHealth:\r\nвыход из квеста здоровье на 0",
+            "Color": 16777215,
+            "Font": "Arial",
+            "FontSize": 10,
+            "fsBold": false,
+            "fsItalic": false,
+            "fsUnderline": false
+        },
+        {
+            "Type": "TGraphRectText",
+            "Rect.Left": 172,
+            "Rect.Top": 727,
+            "Rect.Right": 486,
+            "Rect.Bottom": 799,
+            "FStyle": 0,
+            "FColor": 10710818,
+            "BStyle": 0,
+            "BColor": 14474460,
+            "BSize": 1,
+            "BCoef": "0.300000011920929",
+            "AlignX": 0,
+            "AlignY": 0,
+            "AlignRect": false,
+            "Text": "",
+            "Color": 16777215,
+            "Font": "Arial",
+            "FontSize": 10,
+            "fsBold": false,
+            "fsItalic": false,
+            "fsUnderline": false
+        }
+    ],
+    "BlockPar.EC.Total.Strings": 32,
+    "BlockPar.EC": 
+    [
+        {
+            "#": "17",
+            "String": "Как скажешь"
+        },
+        {
+            "#": "21",
+            "String": "Хочу услышать брифинг задания"
+        },
+        {
+            "#": "22",
+            "String": "Кто это был?"
+        },
+        {
+            "#": "26",
+            "String": "<0> был информатор <clr>Хонована Дока<clrEnd>. И-за его действий был убит агент коалиции <clr>Мейдзи Куда<clrEnd> и похищен важный голодиск. Собственно для решения этой проблемы ты и здесь."
+        },
+        {
+            "#": "29",
+            "String": "Ясно, с чего начнём?"
+        },
+        {
+            "#": "30",
+            "String": "Задание ясно, приступаю"
+        },
+        {
+            "#": "31",
+            "String": "Подожди немного, я сейчас вернусь"
+        },
+        {
+            "#": "40",
+            "String": "Уже лечу"
+        },
+        {
+            "#": "41",
+            "String": "Если в кратце: Есть один ужасный человек, его зовут <clr>Хонован Док<clrEnd>. Он весьма бога и влиятелен, а еще он контрабандист и имеет большой список криминальных дел, но меня послала коалиция за ним, из-за убийства им нашего агента и похищении голодиска. Скоро он устраивает вечеринку с его сообщниками. Наша задача пробраться в его логово и выкрасть голодиск. По завершению тебе насчет будет переведено <0> cr.<br>"
+        },
+        {
+            "#": "46",
+            "String": "Готов к стыковке"
+        },
+        {
+            "#": "49",
+            "String": "Задание провалено, агент коалиции убит"
+        },
+        {
+            "#": "53",
+            "String": "Наконец-то с ним покончено, я давно охотилась на этого гада. Значит тебе нужны подробности задания?"
+        },
+        {
+            "#": "60",
+            "String": "Рад сотрудничеству"
+        },
+        {
+            "#": "61",
+            "String": "Слышал, у вас есть деликтаное задание?"
+        },
+        {
+            "#": "64",
+            "String": "Задание выполнено, на ваш счет было переведено <0> cr. и вы заработали 800 опыта, теперь можно и отдохнуть."
+        },
+        {
+            "#": "65",
+            "String": "Задание провалено. Вы отказались выкрасть голодиск у Дока."
+        },
+        {
+            "#": "66",
+            "String": "Задание провалено. Статуя была уничтожена, без неё вам не попасть на вечеринку к Хоновану Доку."
+        },
+        {
+            "#": "67",
+            "String": "Ваша цель привезти статую в систему <0>, на планету <1>, где Хонован Док устраивает вечеринку. За это вы получите <2> cr."
+        },
+        {
+            "#": "68",
+            "String": "Задание провалено. Коалиция была уничтожена и вам некому сдавать задание."
+        },
+        {
+            "#": "69",
+            "String": "Вы напали на агента."
+        },
+        {
+            "#": "70",
+            "String": "Привет <PlayerFull>, я получила сообщение, что командование выслало тебя мне на помощь. Сейчас мне надо разобраться с <0>, помоги мне, а после поговорим."
+        },
+        {
+            "#": "71",
+            "String": "Эй, рейнджер, не до тебя сейчас! У меня на хвосте эта чертова Такасуми, сначала я разберусь с ней, а потом и поговорим."
+        },
+        {
+            "#": "72",
+            "String": "Господин Док любит роскошь и древности. Твоя задача взять статую, которую я тебе сейчас сброшу и доставить её в систему <0>, на планету <1>. На планете я тебя встречу и объясню план действий."
+        },
+        {
+            "#": "73",
+            "String": "Ну чего ждешь? Доставь статую по назначению."
+        },
+        {
+            "#": "74",
+            "String": "Подожди, сейчас подлечу и сброшу груз."
+        },
+        {
+            "#": "78",
+            "String": "Вам нужно отправиться в систему <0> на планету <1>. Дождитесь агента <clr>Такасуми<clrEnd> на орбите планеты и получите дальнейшие инструкции."
+        },
+        {
+            "#": "79",
+            "String": "Агент? Как те девушки спецагенты среди рейнджеров?"
+        },
+        {
+            "#": "80",
+            "String": "Ты прав <PlayerFull>, нужна помощь в одном деликатном деле, а точнее нашему агенту коалиции Такасуми, сейчас она на спецзадании. Подробности твоего участия в этом деле ты получишь на месте. Сейчас она находится в системе <0> на планете <1>. Лети на орбиту планеты, там она тебя встретит."
+        },
+        {
+            "#": "81",
+            "String": "Нет, те девушки в спецотделе по борьбе с пи.. гхм. Вообщем, Такасуми из другого отдела. Это всё что тебе нужно знать."
+        },
+        {
+            "#": "82",
+            "String": "Спасибо, что помог расправиться с этой сучкой Такасуми, она давно создаёт проблемы господину Хоновану Доку. В любом случае, держи <0> cr. в благодарность."
+        },
+        {
+            "#": "83",
+            "String": "Значит, серьёзное задание, я готов взяться за него"
+        },
+        {
+            "#": "84",
+            "String": "Сейчас очень занят, может позже"
+        }
+    ]
+}

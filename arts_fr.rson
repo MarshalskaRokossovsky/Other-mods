@@ -1,0 +1,5282 @@
+{
+    "FileID": 573785173,
+    "FileVersion": 8,
+    "ViewPos.x": -182,
+    "ViewPos.y": -365,
+    "ScriptName": "arts_fr",
+    "ScriptFileOut": "D:\\NEW\\Download\\new\\Games\\SR_HD\\SpaceRangersHDAWarApart-TST\\Mods\\Expansion\\data\\Script\\arts_fr.scr",
+    "ScriptTextOut": "D:\\NEW\\Download\\new\\Games\\SR_HD\\SpaceRangersHDAWarApart-TST\\Mods\\Expansion\\CFG\\Rus\\arts_fr.txt",
+    "LangDatIn": "",
+    "LangDatOut": "",
+    "MainDatIn": "",
+    "MainDatOut": "",
+    "CacheDatIn": "",
+    "CacheDatOut": "",
+    "ExportLang": false,
+    "Visual.Objects": 
+    [
+        {
+            "DialogAnswers": 
+            [
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 250,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Предыдущая страница",
+                    "AMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 220,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Первая страница",
+                    "AMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 420,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "<bh_item_names[1+bh_items_page*5]><temp_str>",
+                    "AMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 380,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "<bh_item_names[2+bh_items_page*5]><temp_str>",
+                    "AMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "<bh_item_names[3+bh_items_page*5]><temp_str>",
+                    "AMsg.Num": "4"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 300,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "<bh_item_names[4+bh_items_page*5]><temp_str>",
+                    "AMsg.Num": "5"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "<bh_item_names[5+bh_items_page*5]><temp_str>",
+                    "AMsg.Num": "6"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": -10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Назад",
+                    "AMsg.Num": "7"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 400,
+                    "Pos.y": 30,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Сдать артефакт на изучение",
+                    "AMsg.Num": "8"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Назад",
+                    "AMsg.Num": "9"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 400,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Получить обновлённые данные",
+                    "AMsg.Num": "10"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Отказаться",
+                    "AMsg.Num": "11"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 400,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Подтвердить",
+                    "AMsg.Num": "12"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 170,
+                    "Pos.y": -10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Совместить оборудование с микромодулем",
+                    "AMsg.Num": "13"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 100,
+                    "Pos.y": 60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Назад",
+                    "AMsg.Num": "14"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 170,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Далее",
+                    "AMsg.Num": "15"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 100,
+                    "Pos.y": 120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Назад",
+                    "AMsg.Num": "16"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 280,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Следующая страница",
+                    "AMsg.Num": "17"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 190,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Подтвердить",
+                    "AMsg.Num": "18"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 210,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Отказаться",
+                    "AMsg.Num": "19"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "H-тип, цена прошивки: <cost_new[7]> cr. <temp_int_2*7> нан.",
+                    "AMsg.Num": "20"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "G-тип, цена прошивки: <cost_new[6]> cr. <temp_int_2*6> нан.",
+                    "AMsg.Num": "21"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "F-тип, цена прошивки: <cost_new[5]> cr. <temp_int_2*5> нан.",
+                    "AMsg.Num": "22"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "E-тип, цена прошивки: <cost_new[4]> cr. <temp_int_2*4> нан.",
+                    "AMsg.Num": "23"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "D-тип, цена прошивки: <cost_new[3]> cr. <temp_int_2*3> нан.",
+                    "AMsg.Num": "24"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 320,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "C-тип, цена прошивки: <cost_new[2]> cr. <temp_int_2*2> нан.",
+                    "AMsg.Num": "25"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "B-тип, цена прошивки: <cost_new[1]> cr. <temp_int_2> нан.",
+                    "AMsg.Num": "26"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 450,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Выбрать другой предмет",
+                    "AMsg.Num": "27"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 500,
+                    "Pos.y": 40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Назад",
+                    "AMsg.Num": "28"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 500,
+                    "Pos.y": 110,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Назад",
+                    "AMsg.Num": "29"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 530,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Согласен",
+                    "AMsg.Num": "30"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 580,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Прошить оборудование",
+                    "AMsg.Num": "31"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 600,
+                    "Pos.y": 150,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Заменить улучшенные части на стандартные",
+                    "AMsg.Num": "32"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 630,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Покинуть отдел",
+                    "AMsg.Num": "33"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 430,
+                    "Pos.y": -30,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Покинуть отдел",
+                    "AMsg.Num": "34"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Модифицировать кабину корабля",
+                    "AMsg.Num": "35"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 590,
+                    "Pos.y": -120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Оплатить модификацию",
+                    "AMsg.Num": "36"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 590,
+                    "Pos.y": -80,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Я передумал",
+                    "AMsg.Num": "37"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 650,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Далее",
+                    "AMsg.Num": "38"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 370,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Далее",
+                    "AMsg.Num": "39"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 290,
+                    "Pos.y": -40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Отказаться",
+                    "AMsg.Num": "40"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": -40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Купить",
+                    "AMsg.Num": "41"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 320,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Купить данные исследований",
+                    "AMsg.Num": "42"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 530,
+                    "Pos.y": 150,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Спасибо, но я передумал",
+                    "AMsg.Num": "43"
+                }
+            ],
+            "DialogMessages": 
+            [
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 110,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Артефакты типа \"<cur_art_sb2_srch_type_name[0]>\" изучены на <cur_art_sb2_srch_type[0]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[1]>\" изучены на <cur_art_sb2_srch_type[1]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[2]>\" изучены на <cur_art_sb2_srch_type[2]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[3]>\" изучены на <cur_art_sb2_srch_type[3]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[4]>\" изучены на <cur_art_sb2_srch_type[4]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[5]>\" изучены на <cur_art_sb2_srch_type[5]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[6]>\" изучены на <cur_art_sb2_srch_type[6]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[7]>\" изучены на <cur_art_sb2_srch_type[7]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[8]>\" изучены на <cur_art_sb2_srch_type[8]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[9]>\" изучены на <cur_art_sb2_srch_type[9]>%.\r\nАртефакты типа \"<cur_art_sb2_srch_type_name[10]>\" изучены на <cur_art_sb2_srch_type[10]>%.\r\n\r\nКакой артефакт вы желаете сдать на изучение?",
+                    "DMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "У вас нет артефактов пригодных для изучения.",
+                    "DMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 400,
+                    "Pos.y": -10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Что вас интересует?",
+                    "DMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 370,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Благодарим за помощь в изучении неизвестного оборудования, в качестве компенсации получите <add_cr> cr. за утраченный артефакт.",
+                    "DMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Вы выбрали:\r\nНазвание артефакта: <ItemFullName(bh_items[chosen_num])>.\r\nВес артефакта: <ItemSize(bh_items[chosen_num])> т.\r\nЦена артефакта: <ItemCost(bh_items[chosen_num])> cr.\r\nТип артефакта: <srch_type>.",
+                    "DMsg.Num": "4"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 170,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Выберите оборудование для совмещения с модулем.",
+                    "DMsg.Num": "5"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 100,
+                    "Pos.y": 40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "У вас нету неопознанного оборудования пригодного для совмещения.",
+                    "DMsg.Num": "6"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 170,
+                    "Pos.y": 350,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Мы не изучили данный тип оборудования.",
+                    "DMsg.Num": "7"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 120,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Выберите микромодуль для совмещения.",
+                    "DMsg.Num": "8"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 100,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "У вас нету микромодулей.",
+                    "DMsg.Num": "9"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 190,
+                    "Pos.y": 310,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Вы выбрали для совмещения:\r\nОборудование: <ItemFullName(item_name)>.\r\nМикромодуль: <BonusName(mm_name)>.",
+                    "DMsg.Num": "10"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 450,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Выберите оборудование для прошивки.",
+                    "DMsg.Num": "11"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Нету оборудования пригодного для прошивки.",
+                    "DMsg.Num": "12"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 460,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "До какого типа прошить?\r\nНан-счёт: <player_bh_score>.",
+                    "DMsg.Num": "13"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 530,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Нужно больше кредитов.",
+                    "DMsg.Num": "14"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 90,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Выберите оборудование, показатели которого хотите вернуть к стандартным значениям.",
+                    "DMsg.Num": "15"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 470,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "У вас нету улучшенного оборудования.",
+                    "DMsg.Num": "16"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 470,
+                    "Pos.y": 150,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Мы можем вернуть <bh_item_names[chosen_num]> к стандартным показателям за <cost_deup> cr.",
+                    "DMsg.Num": "17"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 600,
+                    "Pos.y": -20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Что вас интересует?",
+                    "DMsg.Num": "18"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": -80,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "В модификацию входит панель управления некоторыми артефактами, а также усовершенствованный бортовой компьютер, но функции его пока что ограниченны(ждём новый патч <clr>x.2.a.1.1640+<clrEnd>).\r\nЦена: <20000*GalaxyTechLevel()> cr.",
+                    "DMsg.Num": "19"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 680,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Мы можем прошить оборудование, тем самым повысив его эффективность, однако прошивка возможна не для любых моделей, скорее всего с развитием науки и техники мы сможем прошивать и более сложные агрегаты. При прошивке используется уникальное оборудование, настроенное только на заводские показатели, поэтому улучшенное оборудование не принимается. Также, каждая операция требует некоторых акриновых затрат, это количество будет списано с вашего нан-счёта.\r\nКроме прошивки, мы предоставляем услуги по восстановлению заводских настроек на улучшенном оборудовании. Но за новые детали вы рассчитаетесь полностью.\r\nИ ещё у нас имеются схемы для установки дополнительного оборудования в кабину пилота.",
+                    "DMsg.Num": "20"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Наш отдел изучает влияние артефактов на неизвестное оборудование. \r\nВозможно, вы уже заметили, что только с ним некоторые артефакты функционируют в полную силу. Пока что понять из-за чего это происходит, мы не в силах. Но не всё так печально, мы научились совмещать микромодули любых производителей с неизвестным оборудованием и при полном изучении типа артефактов, сможем предложить вам эту услугу.\r\nНо эта технология экспериментальная и требует существенных затрат, наши запасы артефактов иссякли. Надеюсь, вы не избавились от ненужных вам артефактов?",
+                    "DMsg.Num": "21"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Нужно болше нанов.",
+                    "DMsg.Num": "22"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 290,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Даже после того, как вы помогли изучить все типы артефактов, мы не можем передать вам все данные исследований. Однако, информацию о составных частях артефактов и некоторых их свойствах вы имеете право получить, скажем за 987654(ТЕСТ) cr.",
+                    "DMsg.Num": "23"
+                }
+            ],
+            "Dialogs": 
+            [
+                {
+                    "Type": "TDialog",
+                    "Name": "Dialog_arts",
+                    "Pos.x": 400,
+                    "Pos.y": -100,
+                    "Parent": -1,
+                    "#": 0
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "Dialog_proshiv",
+                    "Pos.x": 740,
+                    "Pos.y": -20,
+                    "Parent": -1,
+                    "#": 0
+                }
+            ],
+            "Groups": 
+            [
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupNew",
+                    "Pos.x": -70,
+                    "Pos.y": 170,
+                    "Parent": -1,
+                    "#": 0,
+                    "Owner": 62,
+                    "Group.Type": 126,
+                    "CntShipMin": 1,
+                    "CntShipMax": 1,
+                    "SpeedMin": 100,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": true,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "DistSearch": 10000,
+                    "Dialog": -1,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Operations": 
+            [
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 220,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "bh_items_page=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 250,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "bh_items_page=bh_items_page-1;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 280,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "bh_items_page=bh_items_page+1;",
+                        "if (bh_items_page*5>=num_bh_items){bh_items_page=0;}"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 400,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=1;",
+                        "ArrayClear(bh_items);",
+                        "ArrayClear(bh_item_names);",
+                        "if(cur_art_sb2_srch_type[0]==100)",
+                        "\t{cur_art_sb2_srch[0]=100;cur_art_sb2_srch[12]=100;}",
+                        "if(cur_art_sb2_srch_type[1]==100)",
+                        "\t{cur_art_sb2_srch[2]=100;cur_art_sb2_srch[3]=100;cur_art_sb2_srch[21]=100;cur_art_sb2_srch[22]=100;cur_art_sb2_srch[23]=100;}",
+                        "if(cur_art_sb2_srch_type[2]==100)",
+                        "\t{cur_art_sb2_srch[1]=100;}",
+                        "if(cur_art_sb2_srch_type[3]==100)",
+                        "\t{cur_art_sb2_srch[6]=100;cur_art_sb2_srch[26]=100;}",
+                        "if(cur_art_sb2_srch_type[4]==100)",
+                        "\t{cur_art_sb2_srch[8]=100;}",
+                        "if(cur_art_sb2_srch_type[5]==100)",
+                        "\t{cur_art_sb2_srch[9]=100;}",
+                        "if(cur_art_sb2_srch_type[6]==100)",
+                        "\t{cur_art_sb2_srch[5]=100;}",
+                        "if(cur_art_sb2_srch_type[7]==100)",
+                        "\t{cur_art_sb2_srch[4]=100;cur_art_sb2_srch[13]=100;}",
+                        "if(cur_art_sb2_srch_type[8]==100)",
+                        "\t{cur_art_sb2_srch[16]=100;cur_art_sb2_srch[17]=100;}",
+                        "if(cur_art_sb2_srch_type[9]==100)",
+                        "\t{cur_art_sb2_srch[18]=100;cur_art_sb2_srch[19]=100;}",
+                        "if(cur_art_sb2_srch_type[10]==100)",
+                        "\t{cur_art_sb2_srch[20]=100;cur_art_sb2_srch[28]=100;}",
+                        "if(cur_art_sb2_srch_type[8]==100 && cur_art_sb2_srch_type[5]==100)",
+                        "\t{cur_art_sb2_srch[15]=100;}",
+                        "if(cur_art_sb2_srch_type[8]==100 && cur_art_sb2_srch_type[9]==100 && cur_art_sb2_srch_type[10]==100)",
+                        "\t{cur_art_sb2_srch[11]=100;}",
+                        "if(cur_art_sb2_srch_type[8]==100 && cur_art_sb2_srch_type[9]==100 && cur_art_sb2_srch_type[5]==100 && cur_art_sb2_srch_type[10]==100)",
+                        "\t{cur_art_sb2_srch[24]=100;cur_art_sb2_srch[25]=100;}",
+                        "if(cur_art_sb2_srch_type[0]==100 && cur_art_sb2_srch_type[1]==100 && cur_art_sb2_srch_type[2]==100 && cur_art_sb2_srch_type[3]==100 && cur_art_sb2_srch_type[4]==100 && cur_art_sb2_srch_type[5]==100 && cur_art_sb2_srch_type[6]==100 && cur_art_sb2_srch_type[7]==100 && cur_art_sb2_srch_type[8]==100 && cur_art_sb2_srch_type[9]==100 && cur_art_sb2_srch_type[10]==100)",
+                        "\t{cur_art_sb2_srch[7]=100;cur_art_sb2_srch[10]=100;cur_art_sb2_srch[14]=100;cur_art_sb2_srch[27]=100;}",
+                        "for(count=0;count<ShipArts(Player());count=count+1)",
+                        "\t{",
+                        "\tcur_bh_item=ShipArts(Player(),count);",
+                        "\tfor(count2=0;count2<=28;count2=count2+1) ",
+                        "\t\t{",
+                        "\t\tif(ItemType(cur_bh_item)==cur_art_sb2[count2] && cur_art_sb2_srch[count2]<100)",
+                        "\t\t\t{",
+                        "\t\t\tArrayAdd(bh_items,cur_bh_item);",
+                        "\t\t\tArrayAdd(bh_item_names, ItemFullName(cur_bh_item));",
+                        "\t\t\t}",
+                        "\t\t}",
+                        "\t}",
+                        "for(temp_int=0;temp_int<ShipArts(Player());temp_int=temp_int+1)",
+                        "\t{",
+                        "\tcur_art=ShipArts(Player(),temp_int);",
+                        "\tif(ItemType(cur_art)==t_ArtefactTranclucator)",
+                        "\t\t{",
+                        "\t\tfor(count=0;count<ShipArts(ArtTranclucatorToShip(cur_art));count=count+1)",
+                        "\t\t\t{",
+                        "\t\t\tcur_bh_item=ShipArts(ArtTranclucatorToShip(cur_art),count);",
+                        "\t\t\tfor(count2=0;count2<=28;count2=count2+1) ",
+                        "\t\t\t\t{",
+                        "\t\t\t\tif(ItemType(cur_bh_item)==cur_art_sb2[count2] && cur_art_sb2_srch[count2]<100)",
+                        "\t\t\t\t\t{",
+                        "\t\t\t\t\tArrayAdd(bh_items,cur_bh_item);",
+                        "\t\t\t\t\tArrayAdd(bh_item_names, ItemFullName(cur_bh_item));",
+                        "\t\t\t\t\t}",
+                        "\t\t\t\t}",
+                        "\t\t\t}",
+                        "\t\t}",
+                        "\t}",
+                        "num_bh_items=ArrayDim(bh_items)-1;",
+                        "bh_items_page=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(FindItemInShip(Player(),bh_items[bh_items_page*5+5])>=0) temp_str=''; else temp_str='(транк)';"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 300,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(FindItemInShip(Player(),bh_items[bh_items_page*5+4])>=0) temp_str=''; else temp_str='(транк)';"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(FindItemInShip(Player(),bh_items[bh_items_page*5+3])>=0) temp_str=''; else temp_str='(транк)';"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 380,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(FindItemInShip(Player(),bh_items[bh_items_page*5+2])>=0) temp_str=''; else temp_str='(транк)';"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 420,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(FindItemInShip(Player(),bh_items[bh_items_page*5+1])>=0) temp_str=''; else temp_str='(транк)';"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "chosen_num=5+bh_items_page*5;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 300,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "chosen_num=4+bh_items_page*5;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "chosen_num=3+bh_items_page*5;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 380,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "chosen_num=2+bh_items_page*5;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 420,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "chosen_num=1+bh_items_page*5;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 400,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(ItemType(bh_items[chosen_num])==9 || ItemType(bh_items[chosen_num])==11 || ItemType(bh_items[chosen_num])==18 || ItemType(bh_items[chosen_num])==21 || ItemType(bh_items[chosen_num])==26 || ItemType(bh_items[chosen_num])==28 || ItemType(bh_items[chosen_num])==29 || ItemType(bh_items[chosen_num])==30 || ItemType(bh_items[chosen_num])==31 || ItemType(bh_items[chosen_num])==39)",
+                        "\t{",
+                        "\tadd_srch=Rnd(8,13);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==10 || ItemType(bh_items[chosen_num])==13 || ItemType(bh_items[chosen_num])==14 || ItemType(bh_items[chosen_num])==15 || ItemType(bh_items[chosen_num])==17)",
+                        "\t{",
+                        "\tadd_srch=Rnd(9,16);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==12 || ItemType(bh_items[chosen_num])==27 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==20 || ItemType(bh_items[chosen_num])==25 || ItemType(bh_items[chosen_num])==32 || ItemType(bh_items[chosen_num])==33 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==35 || ItemType(bh_items[chosen_num])==36)",
+                        "\t{",
+                        "\tadd_srch=Rnd(3,8);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==22 || ItemType(bh_items[chosen_num])==37 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tadd_srch=Rnd(2,4);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==9 || ItemType(bh_items[chosen_num])==21 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[0]=cur_art_sb2_srch_type[0]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==11 || ItemType(bh_items[chosen_num])==12 || ItemType(bh_items[chosen_num])==31 || ItemType(bh_items[chosen_num])==32 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38 || ItemType(bh_items[chosen_num])==33 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[1]=cur_art_sb2_srch_type[1]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==10 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[2]=cur_art_sb2_srch_type[2]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==13 || ItemType(bh_items[chosen_num])==7 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[7]=cur_art_sb2_srch_type[7]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==14 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[6]=cur_art_sb2_srch_type[6]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==15 || ItemType(bh_items[chosen_num])==37 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[3]=cur_art_sb2_srch_type[3]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==17 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[4]=cur_art_sb2_srch_type[4]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==18 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[5]=cur_art_sb2_srch_type[5]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==26 || ItemType(bh_items[chosen_num])==27 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[8]=cur_art_sb2_srch_type[8]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==28 || ItemType(bh_items[chosen_num])==29 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[9]=cur_art_sb2_srch_type[9]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==30 || ItemType(bh_items[chosen_num])==39 || ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[10]=cur_art_sb2_srch_type[10]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==20)",
+                        "\t{",
+                        "\tcur_art_sb2_srch_type[8]=cur_art_sb2_srch_type[8]+add_srch;",
+                        "\tcur_art_sb2_srch_type[9]=cur_art_sb2_srch_type[9]+add_srch;",
+                        "\tcur_art_sb2_srch_type[10]=cur_art_sb2_srch_type[10]+add_srch;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==25)",
+                        "\t{",
+                        "\tif(add_srch>9 && cur_art_sb2_srch_type[5]<100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[5]=cur_art_sb2_srch_type[5]+add_srch;",
+                        "\t\t}",
+                        "\tif(add_srch<=9 && cur_art_sb2_srch_type[5]<100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[8]=cur_art_sb2_srch_type[8]+add_srch;",
+                        "\t\t}",
+                        "\tif(cur_art_sb2_srch_type[5]==100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[8]=cur_art_sb2_srch_type[8]+add_srch;",
+                        "\t\t}",
+                        "\tif(cur_art_sb2_srch_type[8]==100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[5]=cur_art_sb2_srch_type[5]+add_srch;",
+                        "\t\t}",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==35 || ItemType(bh_items[chosen_num])==36)",
+                        "\t{",
+                        "\tif(add_srch>9 && cur_art_sb2_srch_type[5]<100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[5]=cur_art_sb2_srch_type[5]+add_srch;",
+                        "\t\t}",
+                        "\tif(add_srch<=9 && cur_art_sb2_srch_type[5]<100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[8]=cur_art_sb2_srch_type[8]+add_srch;",
+                        "\t\tcur_art_sb2_srch_type[9]=cur_art_sb2_srch_type[9]+add_srch;",
+                        "\t\tcur_art_sb2_srch_type[10]=cur_art_sb2_srch_type[10]+add_srch;",
+                        "\t\t}",
+                        "\tif(cur_art_sb2_srch_type[5]==100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[8]=cur_art_sb2_srch_type[8]+add_srch;",
+                        "\t\tcur_art_sb2_srch_type[9]=cur_art_sb2_srch_type[9]+add_srch;",
+                        "\t\tcur_art_sb2_srch_type[10]=cur_art_sb2_srch_type[10]+add_srch;",
+                        "\t\t}",
+                        "\tif(cur_art_sb2_srch_type[8]==cur_art_sb2_srch_type[9]==cur_art_sb2_srch_type[10]==100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[5]=cur_art_sb2_srch_type[5]+add_srch;",
+                        "\t\t}",
+                        "\t}",
+                        "for(count2=0;count2<=10;count2=count2+1)",
+                        "\t{",
+                        "\tif(cur_art_sb2_srch_type[count2]>100)",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch_type[count2]=100;",
+                        "\t\t}",
+                        "\t}",
+                        "for(count=0;count<=28;count=count+1)",
+                        "\t{",
+                        "\tif(ItemType(bh_items[chosen_num])==cur_art_sb2[count])",
+                        "\t\t{",
+                        "\t\tcur_art_sb2_srch[count]=cur_art_sb2_srch[count]+add_srch;",
+                        "\t\t}",
+                        "\t}",
+                        "add_cr=(ItemCost(bh_items[chosen_num]))*2;",
+                        "GetArtFromShip(Player(),FindItemInShip(Player(),bh_items[chosen_num]));",
+                        "ShipMoney(Player(),(ShipMoney(Player())+add_cr));",
+                        "Sound('Sound.Sell');"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 630,
+                    "Pos.y": 80,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Init",
+                    "Code": 
+                    [
+                        "pro_items=newarray(1);cost_new=newarray(8);",
+                        "i_lvl_koef=newarray(8);",
+                        "bh_item_names=newarray(1);bh_items=newarray(1);cur_art_sb2=newarray(29);",
+                        "cur_art_sb2_srch=newarray(29);cur_art_sb2_names=newarray(29);",
+                        "cur_art_sb2_srch_type_name=newarray(12);cur_art_sb2_srch_type=newarray(11);",
+                        "",
+                        "cur_art_sb2[0]=9;cur_art_sb2[1]=10;cur_art_sb2[2]=11;cur_art_sb2[3]=12;",
+                        "cur_art_sb2[4]=13;cur_art_sb2[5]=14;cur_art_sb2[6]=15;cur_art_sb2[7]=16;",
+                        "cur_art_sb2[8]=17;cur_art_sb2[9]=18;cur_art_sb2[10]=19;cur_art_sb2[11]=20;",
+                        "cur_art_sb2[12]=21;cur_art_sb2[13]=22;cur_art_sb2[14]=24;cur_art_sb2[15]=25;",
+                        "cur_art_sb2[16]=26;cur_art_sb2[17]=27;cur_art_sb2[18]=28;cur_art_sb2[19]=29;",
+                        "cur_art_sb2[20]=30;cur_art_sb2[21]=31;cur_art_sb2[22]=32;cur_art_sb2[23]=33;",
+                        "cur_art_sb2[24]=35;cur_art_sb2[25]=36;cur_art_sb2[26]=37;cur_art_sb2[27]=38;",
+                        "cur_art_sb2[28]=39;",
+                        "",
+                        "cur_art_sb2_srch[0]=0;cur_art_sb2_srch[1]=0;cur_art_sb2_srch[2]=0;cur_art_sb2_srch[3]=0;",
+                        "cur_art_sb2_srch[4]=0;cur_art_sb2_srch[5]=0;cur_art_sb2_srch[6]=0;cur_art_sb2_srch[7]=0;",
+                        "cur_art_sb2_srch[8]=0;cur_art_sb2_srch[9]=0;cur_art_sb2_srch[10]=0;cur_art_sb2_srch[11]=0;",
+                        "cur_art_sb2_srch[12]=0;cur_art_sb2_srch[13]=0;cur_art_sb2_srch[14]=0;cur_art_sb2_srch[15]=0;",
+                        "cur_art_sb2_srch[16]=0;cur_art_sb2_srch[17]=0;cur_art_sb2_srch[18]=0;cur_art_sb2_srch[19]=0;",
+                        "cur_art_sb2_srch[20]=0;cur_art_sb2_srch[21]=0;cur_art_sb2_srch[22]=0;cur_art_sb2_srch[23]=0;",
+                        "cur_art_sb2_srch[24]=0;cur_art_sb2_srch[25]=0;cur_art_sb2_srch[26]=0;cur_art_sb2_srch[27]=0;",
+                        "cur_art_sb2_srch[28]=0;",
+                        "",
+                        "cur_art_sb2_names[0]='Железные жупи';cur_art_sb2_names[1]='Черная жижа';",
+                        "cur_art_sb2_names[2]='Пси-ускоритель материи';cur_art_sb2_names[3]='Отморозки';",
+                        "cur_art_sb2_names[4]='Пролонгер';cur_art_sb2_names[5]='Сканерный кэш';",
+                        "cur_art_sb2_names[6]='Дроид младший';cur_art_sb2_names[7]='Нанитоиды';",
+                        "cur_art_sb2_names[8]='Эриметр';cur_art_sb2_names[9]='Поляризатор';",
+                        "cur_art_sb2_names[10]='Вероятностный анализатор';cur_art_sb2_names[11]='Локализатор взрывной волны';",
+                        "cur_art_sb2_names[12]='Антигравитатор';cur_art_sb2_names[13]='Трансфакторный маяк';",
+                        "cur_art_sb2_names[14]='Транклюкатор';cur_art_sb2_names[15]='Пропорционар';",
+                        "cur_art_sb2_names[16]='Пятерик';cur_art_sb2_names[17]='Проглот';",
+                        "cur_art_sb2_names[18]='Навинт';cur_art_sb2_names[19]='Вжик';",
+                        "cur_art_sb2_names[20]='Ракетанг';cur_art_sb2_names[21]='Обливионный коннектор';",
+                        "cur_art_sb2_names[22]='Сопланатор';cur_art_sb2_names[23]='Гипергенератор';",
+                        "cur_art_sb2_names[24]='Протон';cur_art_sb2_names[25]='Армс';",
+                        "cur_art_sb2_names[26]='Артефактор';cur_art_sb2_names[27]='Биомир';",
+                        "cur_art_sb2_names[28]='аЭгис';",
+                        "",
+                        "cur_art_sb2_srch_type_name[0]='Корпус';cur_art_sb2_srch_type_name[1]='Двигатель';",
+                        "cur_art_sb2_srch_type_name[2]='Топливный бак';cur_art_sb2_srch_type_name[3]='Ремонтный дроид';",
+                        "cur_art_sb2_srch_type_name[4]='Захват';cur_art_sb2_srch_type_name[5]='Защитный генератор';",
+                        "cur_art_sb2_srch_type_name[6]='Сканер';cur_art_sb2_srch_type_name[7]='Радар';",
+                        "cur_art_sb2_srch_type_name[8]='Энергетическое оружее';cur_art_sb2_srch_type_name[9]='Осколочное оружее';",
+                        "cur_art_sb2_srch_type_name[10]='Ракетное оружее';cur_art_sb2_srch_type_name[11]='Все типы';",
+                        "",
+                        "cur_art_sb2_srch_type[0]=0;cur_art_sb2_srch_type[1]=0;cur_art_sb2_srch_type[2]=0;",
+                        "cur_art_sb2_srch_type[3]=0;cur_art_sb2_srch_type[4]=0;cur_art_sb2_srch_type[5]=0;",
+                        "cur_art_sb2_srch_type[6]=0;cur_art_sb2_srch_type[7]=0;cur_art_sb2_srch_type[8]=0;",
+                        "cur_art_sb2_srch_type[9]=0;cur_art_sb2_srch_type[10]=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 40,
+                    "Pos.y": -40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "AddDialogOverride('Dialog_arts',arts_ON);",
+                        "GotoGov(1);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -30,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Global",
+                    "Code": 
+                    [
+                        "GRun()"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 380,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 170,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=2;",
+                        "mod_ok=0;",
+                        "ArrayClear(bh_items);",
+                        "ArrayClear(bh_item_names);",
+                        "for(count=0;count<ShipItems(Player());count=count+1)",
+                        "\t{",
+                        "\tcur_bh_item=ShipItems(Player(),count);",
+                        "\tif(ItemOwner(cur_bh_item)!=None) continue;",
+                        "\tif(EqModule(cur_bh_item)>=0) continue;",
+                        "\tif(ItemType(cur_bh_item)<t_Hull || ItemType(cur_bh_item)>=t_Protoplasm) continue;",
+                        "\t\tArrayAdd(bh_items,cur_bh_item);",
+                        "\t\tif(ItemLevel(cur_bh_item)==1) temp_str=' A'; ",
+                        "\t      if(ItemLevel(cur_bh_item)==2) temp_str=' B';",
+                        "\t\tif(ItemLevel(cur_bh_item)==3) temp_str=' C';",
+                        "\t\tif(ItemLevel(cur_bh_item)==4) temp_str=' D';",
+                        "\t\tif(ItemLevel(cur_bh_item)==5) temp_str=' E';",
+                        "\t\tif(ItemLevel(cur_bh_item)==6) temp_str=' F';",
+                        "\t\tif(ItemLevel(cur_bh_item)==7) temp_str=' G';",
+                        "\t\tif(ItemLevel(cur_bh_item)==8) temp_str=' H';",
+                        "      \tif(ItemType(cur_bh_item)<t_Weapon1 )",
+                        "\t\t\t{",
+                        "      \t\tArrayAdd(bh_item_names, DeleteTags(ItemFullName(cur_bh_item))); ",
+                        "\t\t\t}",
+                        "      \tif(ItemType(cur_bh_item)>=t_Weapon1 )",
+                        "\t\t\t{",
+                        "      \t\tArrayAdd(bh_item_names, DeleteTags(ItemFullName(cur_bh_item))+temp_str); ",
+                        "\t\t\t}",
+                        "\t}",
+                        "for(temp_int=0;temp_int<ShipArts(Player());temp_int=temp_int+1)",
+                        "\t{",
+                        "\tcur_art=ShipArts(Player(),temp_int);",
+                        "\tif(ItemType(cur_art)==t_ArtefactTranclucator)",
+                        "\t\t{",
+                        "\t\tfor(count=0;count<ShipItems(ArtTranclucatorToShip(cur_art));count=count+1)",
+                        "\t\t\t{",
+                        "\t\t\tcur_bh_item=ShipItems(ArtTranclucatorToShip(cur_art),count);",
+                        "\t\t\tif(ItemOwner(cur_bh_item)!=None) continue;",
+                        "\t\t\tif(ItemType(cur_bh_item)<t_Hull || ItemType(cur_bh_item)>=t_Protoplasm) continue;",
+                        "\t\t\tArrayAdd(bh_items,cur_bh_item);",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==1) temp_str=' A'; ",
+                        "\t\t      if(ItemLevel(cur_bh_item)==2) temp_str=' B';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==3) temp_str=' C';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==4) temp_str=' D';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==5) temp_str=' E';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==6) temp_str=' F';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==7) temp_str=' G';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==8) temp_str=' H';",
+                        "\t\t\tif(ItemType(cur_bh_item)<t_Weapon1 )",
+                        "\t\t\t\t{",
+                        "      \t\t\tArrayAdd(bh_item_names, DeleteTags(ItemFullName(cur_bh_item))); ",
+                        "\t\t\t\t}",
+                        "      \t\tif(ItemType(cur_bh_item)>=t_Weapon1 )",
+                        "\t\t\t\t{",
+                        "      \t\t\tArrayAdd(bh_item_names, DeleteTags(ItemFullName(cur_bh_item))+temp_str); ",
+                        "\t\t\t\t}",
+                        "\t\t\t}",
+                        "\t\t}",
+                        "\t}",
+                        "num_bh_items=ArrayDim(bh_items)-1;",
+                        "bh_items_page=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 100,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 250,
+                    "Pos.y": 360,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(ItemType(bh_items[chosen_num])==40 && cur_art_sb2_srch_type[0]==100)",
+                        "\t{",
+                        "\tmod_ok=1;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==41 && cur_art_sb2_srch_type[2]==100)",
+                        "\t{",
+                        "\tmod_ok=1;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==42 && cur_art_sb2_srch_type[1]==100)",
+                        "\t{",
+                        "\tmod_ok=1;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==43 && cur_art_sb2_srch_type[7]==100)",
+                        "\t{",
+                        "\tmod_ok=1;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==44 && cur_art_sb2_srch_type[6]==100)",
+                        "\t{",
+                        "\tmod_ok=1;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==45 && cur_art_sb2_srch_type[3]==100)",
+                        "\t{",
+                        "\tmod_ok=1;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==46 && cur_art_sb2_srch_type[4]==100)",
+                        "\t{",
+                        "\tmod_ok=1;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==47 && cur_art_sb2_srch_type[5]==100)",
+                        "\t{",
+                        "\tmod_ok=1;",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==48 || ItemType(bh_items[chosen_num])==50 || ItemType(bh_items[chosen_num])==52 || ItemType(bh_items[chosen_num])==53 || ItemType(bh_items[chosen_num])==55 || ItemType(bh_items[chosen_num])==57 || ItemType(bh_items[chosen_num])==58 || ItemType(bh_items[chosen_num])==59 || ItemType(bh_items[chosen_num])==61 || ItemType(bh_items[chosen_num])==64)",
+                        "\t{",
+                        "\tif(cur_art_sb2_srch_type[8]==100)",
+                        "\t\t{",
+                        "\t\tmod_ok=1;",
+                        "\t\t}",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==49 || ItemType(bh_items[chosen_num])==54 || ItemType(bh_items[chosen_num])==56 || ItemType(bh_items[chosen_num])==60 || ItemType(bh_items[chosen_num])==63)",
+                        "\t{",
+                        "\tif(cur_art_sb2_srch_type[9]==100)",
+                        "\t\t{",
+                        "\t\tmod_ok=1;",
+                        "\t\t}",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==51 || ItemType(bh_items[chosen_num])==62 || ItemType(bh_items[chosen_num])==65)",
+                        "\t{",
+                        "\tif(cur_art_sb2_srch_type[10]==100)",
+                        "\t\t{",
+                        "\t\tmod_ok=1;",
+                        "\t\t}",
+                        "\t}",
+                        "item_name=bh_items[chosen_num];"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 100,
+                    "Pos.y": 90,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 120,
+                    "Pos.y": 230,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=3;",
+                        "ArrayClear(bh_items);",
+                        "ArrayClear(bh_item_names);",
+                        "for(count=0;count<ShipItems(Player());count=count+1)",
+                        "\t{",
+                        "\tcur_bh_item=ShipItems(Player(),count);",
+                        "\tif(ItemType(cur_bh_item)!=68) continue;",
+                        "\tmm_ok=0;",
+                        "\tfor(count2=0;count2<=7;count2=count2+1)",
+                        "\t\t{",
+                        "\t\tItemOwner(item_name,count2);",
+                        "\t\tif(MayAddBonusToEq(EqModule(cur_bh_item),item_name))",
+                        "\t\t\t{",
+                        "\t\t\tmm_ok=1;",
+                        "\t\t\t}",
+                        "\t\t}",
+                        "\tItemOwner(item_name,None);",
+                        "\tif(mm_ok==0) continue;",
+                        "\tArrayAdd(bh_items,cur_bh_item);",
+                        "\tArrayAdd(bh_item_names, Name(cur_bh_item)); ",
+                        "\t}",
+                        "num_bh_items=ArrayDim(bh_items)-1;",
+                        "bh_items_page=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 190,
+                    "Pos.y": 330,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "mm_name=EqModule(bh_items[chosen_num])"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": 330,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(ItemType(bh_items[chosen_num])==9 || ItemType(bh_items[chosen_num])==21)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[0];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==11 || ItemType(bh_items[chosen_num])==12 || ItemType(bh_items[chosen_num])==31 || ItemType(bh_items[chosen_num])==32 || ItemType(bh_items[chosen_num])==33)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[1];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==10)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[2];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==15 || ItemType(bh_items[chosen_num])==26)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[3];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==17)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[4];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==18)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[5];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==14)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[6];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==13 || ItemType(bh_items[chosen_num])==22)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[7];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==26 || ItemType(bh_items[chosen_num])==27)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[8];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==28 || ItemType(bh_items[chosen_num])==29)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[9];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==30 || ItemType(bh_items[chosen_num])==39)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[10];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==16 || ItemType(bh_items[chosen_num])==19 || ItemType(bh_items[chosen_num])==24 || ItemType(bh_items[chosen_num])==38)",
+                        "\t{",
+                        "\tsrch_type=cur_art_sb2_srch_type_name[11];",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==20)",
+                        "\t{",
+                        "\tsrch_type='Оружее';",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==25)",
+                        "\t{",
+                        "\tif(cur_art_sb2_srch_type[8]<100 && cur_art_sb2_srch_type[5]<100)",
+                        "\t\t{",
+                        "\t\tsrch_type=cur_art_sb2_srch_type_name[5]+', '+cur_art_sb2_srch_type_name[8];",
+                        "\t\t}",
+                        "\tif(cur_art_sb2_srch_type[8]<100 && cur_art_sb2_srch_type[5]==100)",
+                        "\t\t{",
+                        "\t\tsrch_type=cur_art_sb2_srch_type_name[8];",
+                        "\t\t}",
+                        "\tif(cur_art_sb2_srch_type[8]==100 && cur_art_sb2_srch_type[5]<100)",
+                        "\t\t{",
+                        "\t\tsrch_type=cur_art_sb2_srch_type_name[5];",
+                        "\t\t}",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==35 || ItemType(bh_items[chosen_num])==36)",
+                        "\t{",
+                        "\tif(cur_art_sb2_srch_type[5]<100 && cur_art_sb2_srch_type[8]<100 && cur_art_sb2_srch_type[9]<100 && cur_art_sb2_srch_type[10]<100)",
+                        "\t\t{",
+                        "\t\tsrch_type=cur_art_sb2_srch_type_name[5]+', '+'Оружее';",
+                        "\t\t}",
+                        "\tif(cur_art_sb2_srch_type[5]<100 && cur_art_sb2_srch_type[8]==100 && cur_art_sb2_srch_type[9]==100 && cur_art_sb2_srch_type[10]==100)",
+                        "\t\t{",
+                        "\t\tsrch_type=cur_art_sb2_srch_type_name[5];",
+                        "\t\t}",
+                        "\tif(cur_art_sb2_srch_type[5]==100)",
+                        "\t\t{",
+                        "\t\tsrch_type='Оружее';",
+                        "\t\t}",
+                        "\t}"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 190,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ModuleToEquipment(mm_name,item_name);",
+                        "Sound('Sound.Repair');",
+                        "GetItemFromShip(Player(),FindItemInShip(Player(),bh_items[chosen_num]));"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 580,
+                    "Pos.y": 40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=4;",
+                        "ArrayClear(bh_items);",
+                        "ArrayClear(bh_item_names);",
+                        "for(count=ArrayDim(pro_items)-1;count>0;count=count-1)",
+                        "\t{",
+                        "\tif(!IdToItem(pro_items[count]))",
+                        "\t\t{",
+                        "\t\tArrayDelete(pro_items,count);",
+                        "\t\t}",
+                        "\t}",
+                        "for(count=0;count<ShipItems(Player());count=count+1)",
+                        "\t{",
+                        "\tcur_bh_item=ShipItems(Player(),count);",
+                        "\tif(ItemType(cur_bh_item)<=t_Hull || ItemType(cur_bh_item)>=t_Protoplasm) continue;",
+                        "\tif(ItemOwner(cur_bh_item)==Kling) continue;",
+                        "\tif(ItemLevel(cur_bh_item)==8) continue;",
+                        "\tif(ItemImprovement(cur_bh_item)) continue;",
+                        "\tdel_item=0;",
+                        "\tfor(count2=ArrayDim(pro_items)-1;count2>=1;count2=count2-1)",
+                        "\t\t{",
+                        "\t\tif(pro_items[count2]==Id(cur_bh_item)){del_item=1;}",
+                        "\t\t}",
+                        "\tif(del_item==1) continue;",
+                        "\tif(ItemLevel(cur_bh_item)>=GalaxyTechLevel()) continue;",
+                        "\tArrayAdd(bh_items,cur_bh_item);",
+                        "\tif(ItemLevel(cur_bh_item)==1) temp_str=' A-тип';",
+                        "\tif(ItemLevel(cur_bh_item)==2) temp_str=' B-тип';",
+                        "\tif(ItemLevel(cur_bh_item)==3) temp_str=' C-тип';",
+                        "\tif(ItemLevel(cur_bh_item)==4) temp_str=' D-тип';",
+                        "\tif(ItemLevel(cur_bh_item)==5) temp_str=' E-тип';",
+                        "\tif(ItemLevel(cur_bh_item)==6) temp_str=' F-тип';",
+                        "\tif(ItemLevel(cur_bh_item)==7) temp_str=' G-тип';",
+                        "\tArrayAdd(bh_item_names, DeleteTags(Format(ItemFullName(cur_bh_item),'I',''))+temp_str);",
+                        "\t}",
+                        "for(temp_int=0;temp_int<ShipArts(Player());temp_int=temp_int+1)",
+                        "\t{",
+                        "\tcur_art=ShipArts(Player(),temp_int);",
+                        "\tif(ItemType(cur_art)==t_ArtefactTranclucator)",
+                        "\t\t{",
+                        "\t\tfor(count=0;count<ShipItems(ArtTranclucatorToShip(cur_art));count=count+1)",
+                        "\t\t\t{",
+                        "\t\t\tcur_bh_item=ShipItems(ArtTranclucatorToShip(cur_art),count);",
+                        "\t\t\tif(ItemType(cur_bh_item)<=t_Hull || ItemType(cur_bh_item)>=t_Protoplasm) continue;",
+                        "\t\t\tif(ItemLevel(cur_bh_item)>=GalaxyTechLevel() && ItemType(cur_bh_item)>=t_Weapon1) continue;",
+                        "\t\t\tif(ItemOwner(cur_bh_item)==Kling) continue;",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==8) continue;",
+                        "\t\t\tArrayAdd(bh_items,cur_bh_item);",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==1) temp_str=' A-тип';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==2) temp_str=' B-тип';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==3) temp_str=' C-тип';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==4) temp_str=' D-тип';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==5) temp_str=' E-тип';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==6) temp_str=' F-тип';",
+                        "\t\t\tif(ItemLevel(cur_bh_item)==7) temp_str=' G-тип';",
+                        "\t\t\tArrayAdd(bh_item_names, DeleteTags(Format(ItemFullName(cur_bh_item),'I',''))+temp_str);",
+                        "\t\t\t}",
+                        "\t\t}",
+                        "\t}",
+                        "num_bh_items=ArrayDim(bh_items)-1;",
+                        "bh_items_page=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 580,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player(),(ShipMoney(Player())-cost_now));",
+                        "player_bh_score=player_bh_score-temp_int_2*new_lvl;",
+                        "ItemLevel(bh_items[chosen_num],1+new_lvl);",
+                        "ItemCost(bh_items[chosen_num],(ItemCost(bh_items[chosen_num])+cost_now));",
+                        "temp_int_2=Id(bh_items[chosen_num]);",
+                        "ArrayAdd(pro_items,temp_int_2);",
+                        "Sound('Sound.Repair');"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 450,
+                    "Pos.y": 310,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "for(count=1;count<=7;count=count+1)",
+                        "\t{",
+                        "\ti_lvl_koef[count]=0;",
+                        "\ttu_new=CreateEquipment(ItemType(bh_items[chosen_num]),ItemSize(bh_items[chosen_num]),(1+count),ItemOwner(bh_items[chosen_num]));",
+                        "\tif(EqModule(bh_items[chosen_num])>0){ModuleToEquipment(tu_new,EqModule(bh_items[chosen_num]));}",
+                        "\tcost_new[count]=ItemCost(tu_new)*5-ItemCost(bh_items[chosen_num]);",
+                        "\tFreeItem(tu_new);",
+                        "\tif(ItemType(bh_items[chosen_num])>=t_Weapon1)",
+                        "\t\t{",
+                        "\t\ttemp_int_2=3;",
+                        "\t\t}",
+                        "\tif(ItemType(bh_items[chosen_num])>t_Hull && ItemType(bh_items[chosen_num])<t_Weapon1)",
+                        "\t\t{",
+                        "\t\ttemp_int_2=2;",
+                        "\t\t}",
+                        "\tif(count<=ItemLevel(bh_items[chosen_num])-1+temp_int_2 && count!=ItemLevel(bh_items[chosen_num])-1 && count>ItemLevel(bh_items[chosen_num])-1 && GalaxyTechLevel()>count)",
+                        "\t\t{",
+                        "\t\ti_lvl_koef[count]=1;",
+                        "\t\t}",
+                        "\t}",
+                        "temp_int_2=Rnd(3,8);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 520,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost_now=cost_new[7];",
+                        "new_lvl=7;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 520,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost_now=cost_new[6];",
+                        "new_lvl=6;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 520,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost_now=cost_new[5];",
+                        "new_lvl=5;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 520,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost_now=cost_new[4];",
+                        "new_lvl=4;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 520,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost_now=cost_new[3];",
+                        "new_lvl=3;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 520,
+                    "Pos.y": 320,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost_now=cost_new[2];",
+                        "new_lvl=2;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 520,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost_now=cost_new[1];",
+                        "new_lvl=1;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 460,
+                    "Pos.y": -10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "arts_ON=1"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 40,
+                    "Pos.y": -80,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "AddDialogOverride('Dialog_proshiv',proshiv_ON);",
+                        "GotoGov(1);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 150,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art=5;",
+                        "ArrayClear(bh_items);",
+                        "ArrayClear(bh_item_names);",
+                        "for(count=0;count<ShipItems(Player());count=count+1)",
+                        "\t{",
+                        "\tcur_bh_item=ShipItems(Player(),count);",
+                        "\tif(!ItemImprovement(cur_bh_item)) continue;",
+                        "\tif(ItemOwner(cur_bh_item)==Kling) continue;",
+                        "\tif(ItemType(cur_bh_item)<t_Hull || ItemType(cur_bh_item)>=t_Protoplasm) continue;",
+                        "\t\tArrayAdd(bh_items,cur_bh_item);",
+                        "\t\tArrayAdd(bh_item_names, DeleteTags(Format(ItemFullName(cur_bh_item),'I','')+' ['+ItemSize(cur_bh_item)+']'));",
+                        "\t}",
+                        "for(temp_int=0;temp_int<ShipArts(Player());temp_int=temp_int+1)",
+                        "\t{",
+                        "\tcur_art=ShipArts(Player(),temp_int);",
+                        "\tif(ItemType(cur_art)==t_ArtefactTranclucator)",
+                        "\t\t{",
+                        "\t\tfor(count=0;count<ShipItems(ArtTranclucatorToShip(cur_art));count=count+1)",
+                        "\t\t\t{",
+                        "\t\t\tcur_bh_item=ShipItems(ArtTranclucatorToShip(cur_art),count);",
+                        "\t\t\tif(!ItemImprovement(cur_bh_item)) continue;",
+                        "\t\t\tif(ItemOwner(cur_bh_item)==Kling) continue;",
+                        "\t\t\tif(ItemType(cur_bh_item)<t_Hull || ItemType(cur_bh_item)>=t_Protoplasm) continue;",
+                        "\t\t\tArrayAdd(bh_items,cur_bh_item);",
+                        "\t\t\tArrayAdd(bh_item_names, DeleteTags(Format(ItemFullName(cur_bh_item),'I','')+' ['+ItemSize(cur_bh_item)+']'));",
+                        "\t\t\t}",
+                        "\t\t}",
+                        "\t}",
+                        "num_bh_items=ArrayDim(bh_items)-1;",
+                        "bh_items_page=0;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "clon_item=CreateEquipment(ItemType(bh_items[chosen_num]),ItemSize(bh_items[chosen_num]),ItemLevel(bh_items[chosen_num]),ItemOwner(bh_items[chosen_num]));",
+                        "clon_module=-1;",
+                        "if(EqModule(bh_items[chosen_num])>=0)",
+                        "\t{",
+                        "\tclon_module=EqModule(bh_items[chosen_num]);",
+                        "\tModuleToEquipment(-1,bh_items[chosen_num]);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==40)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==41)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==42)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,1),1);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==43)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);\t",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==44)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);\t",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==45)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);\t",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==46)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,1),1);",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])==47)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);\t",
+                        "\t}",
+                        "if(ItemType(bh_items[chosen_num])>=48 && ItemType(bh_items[chosen_num])<=65)",
+                        "\t{",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,0),0);",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,1),1);",
+                        "\tSetEquipmentStats(bh_items[chosen_num],GetEquipmentStats(clon_item,2),2);",
+                        "\t}",
+                        "if(clon_module>=0) ",
+                        "\t{",
+                        "\tModuleToEquipment(clon_module,bh_items[chosen_num]);",
+                        "\tModuleToEquipment(clon_module,clon_item);",
+                        "\t}",
+                        "ItemCost(bh_items[chosen_num],ItemCost(clon_item));",
+                        "ShipMoney(Player(),(ShipMoney(Player())-cost_deup));",
+                        "Sound('Sound.Repair');"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 470,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost_deup=ItemCost(bh_items[chosen_num])*3;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 630,
+                    "Pos.y": 40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "proshiv_ON=1"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 590,
+                    "Pos.y": -100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "CapitalShipStats(ShipItems(Player(),0),2);",
+                        "ShipMoney(Player(),(ShipMoney(Player())-20000*GalaxyTechLevel()));",
+                        "Sound('Sound.Sell');"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 600,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "hi_proshiv=1"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 370,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "hi_arts=1"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": -20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "rsrch_kpb[1]=1;",
+                        "ShipMoney(Player(),(ShipMoney(Player())-987654));",
+                        "Sound('Sound.Sell');"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 370,
+                    "Pos.y": -30,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "temp_int_2=0;",
+                        "for(count2=0;count2<=10;count2=count2+1)",
+                        "\t{",
+                        "\tif(cur_art_sb2_srch_type[count2]>=100)",
+                        "\t\t{",
+                        "\t\ttemp_int_2=temp_int_2+1;",
+                        "\t\t}",
+                        "\t}"
+                    ]
+                }
+            ],
+            "Planets": 
+            [
+                {
+                    "Type": "TPlanet",
+                    "Name": "PlanetNew",
+                    "Pos.x": -70,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Race": 62,
+                    "Owner": 62,
+                    "Economy": 14,
+                    "Goverment": 62,
+                    "RangeMin": 0,
+                    "RangeMax": 100,
+                    "Dialog": -1
+                }
+            ],
+            "Ships": 
+            [
+                {
+                    "Type": "TStarShip",
+                    "Name": "",
+                    "Pos.x": -70,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Count": 1,
+                    "Owner": 62,
+                    "Ship.Type": 126,
+                    "Player": true,
+                    "SpeedMin": 0,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Stars": 
+            [
+                {
+                    "Type": "TStar",
+                    "Name": "StarNew",
+                    "Pos.x": -70,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Constellation": 0,
+                    "Priority": 0,
+                    "NoKling": false,
+                    "NoComeKling": false
+                }
+            ],
+            "Statements": 
+            [
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 280,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "(num_bh_items-bh_items_page*5)>5"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 250,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "bh_items_page>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 220,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items>5 && (num_bh_items-bh_items_page*5)<=5 && bh_items_page>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items<=0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 380,
+                    "Pos.y": 190,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "(num_bh_items-bh_items_page*5)>1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 190,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "(num_bh_items-bh_items_page*5)>2"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 300,
+                    "Pos.y": 190,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "(num_bh_items-bh_items_page*5)>3"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": 190,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "(num_bh_items-bh_items_page*5)>4"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 420,
+                    "Pos.y": 190,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "(num_bh_items-bh_items_page*5)>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 40,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "GetShipRuins(Player())>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -10,
+                    "Pos.y": -60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipType(GetShipRuins(Player()))=='SSB'"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 360,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 220,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==2"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 250,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 140,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items<=0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 170,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 380,
+                    "Pos.y": 330,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 330,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==2"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 120,
+                    "Pos.y": 360,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "mod_ok==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 210,
+                    "Pos.y": 350,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "mod_ok==0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 120,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 100,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items<=0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 300,
+                    "Pos.y": 330,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==3"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 280,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==3"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 310,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==4"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 440,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==4"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "i_lvl_koef[6]==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "i_lvl_koef[5]==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "i_lvl_koef[4]==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "i_lvl_koef[3]==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 320,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "i_lvl_koef[2]==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "i_lvl_koef[1]==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "i_lvl_koef[7]==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player())>=cost_now && player_bh_score>=temp_int_2*new_lvl"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player())<cost_now || player_bh_score<temp_int_2*new_lvl"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 10,
+                    "Pos.y": -80,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "proshiv_ON>8"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 10,
+                    "Pos.y": -40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "arts_ON>8"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 540,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items<=0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 90,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items>0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 310,
+                    "Pos.y": 90,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==5"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 440,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "s_art==5"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 500,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player())>=cost_deup"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": -20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "CapitalShipStats(ShipItems(Player(),0))==0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": -120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player())>=20000*GalaxyTechLevel()"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 740,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "hi_proshiv==0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 650,
+                    "Pos.y": -20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "hi_proshiv==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": -100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "hi_arts==0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 400,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "hi_arts==1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 10,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "num_bh_items<=0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "player_bh_score<temp_int_2*new_lvl"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 540,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player())<cost_now"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "temp_int_2==11 && rsrch_kpb[1]==0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player())>=987654"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 290,
+                    "Pos.y": -20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "1"
+                    ]
+                }
+            ],
+            "States": 
+            [
+                {
+                    "Type": "TState",
+                    "Name": "StateNew",
+                    "Pos.x": -70,
+                    "Pos.y": 210,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 0,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                }
+            ],
+            "Variables": 
+            [
+                {
+                    "Type": "TVar",
+                    "Name": "count2",
+                    "Pos.x": 630,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cur_art_sb2_srch",
+                    "Pos.x": 750,
+                    "Pos.y": 140,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cur_art_sb2",
+                    "Pos.x": 750,
+                    "Pos.y": 120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "num_bh_items",
+                    "Pos.x": 630,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "bh_items_page",
+                    "Pos.x": 630,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "bh_items",
+                    "Pos.x": 630,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "bh_item_names",
+                    "Pos.x": 630,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "bh_item_types",
+                    "Pos.x": 630,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "bh_item_costs",
+                    "Pos.x": 630,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "chosen_num",
+                    "Pos.x": 630,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "count",
+                    "Pos.x": 630,
+                    "Pos.y": 140,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cur_bh_item",
+                    "Pos.x": 630,
+                    "Pos.y": 120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cur_art",
+                    "Pos.x": 630,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "temp_int",
+                    "Pos.x": 630,
+                    "Pos.y": 320,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "temp_str",
+                    "Pos.x": 630,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cur_art_sb2_names",
+                    "Pos.x": 750,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "add_srch",
+                    "Pos.x": 750,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cur_art_sb2_srch_type_name",
+                    "Pos.x": 750,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cur_art_sb2_srch_type",
+                    "Pos.x": 750,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "s_art",
+                    "Pos.x": 750,
+                    "Pos.y": 320,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "mod_ok",
+                    "Pos.x": 830,
+                    "Pos.y": 320,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "mm_name",
+                    "Pos.x": 830,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "item_name",
+                    "Pos.x": 750,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "mm_ok",
+                    "Pos.x": 830,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "mm_bonus",
+                    "Pos.x": 830,
+                    "Pos.y": 280,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "srch_type",
+                    "Pos.x": 750,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cost_now",
+                    "Pos.x": 750,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cost_new",
+                    "Pos.x": 830,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "tu_new",
+                    "Pos.x": 750,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "new_lvl",
+                    "Pos.x": 830,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "i_lvl_koef",
+                    "Pos.x": 750,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "add_cr",
+                    "Pos.x": 750,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "arts_ON",
+                    "Pos.x": 60,
+                    "Pos.y": -40,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "1",
+                    "Global": true
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "proshiv_ON",
+                    "Pos.x": 60,
+                    "Pos.y": -80,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "1",
+                    "Global": true
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "clon_item",
+                    "Pos.x": 630,
+                    "Pos.y": 360,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "clon_module",
+                    "Pos.x": 830,
+                    "Pos.y": 360,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "-1",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cost_deup",
+                    "Pos.x": 750,
+                    "Pos.y": 360,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hi_proshiv",
+                    "Pos.x": 750,
+                    "Pos.y": 80,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hi_arts",
+                    "Pos.x": 830,
+                    "Pos.y": 340,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "nan_cost",
+                    "Pos.x": 840,
+                    "Pos.y": 80,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "pro_items",
+                    "Pos.x": 840,
+                    "Pos.y": 100,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Unknown",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "temp_int_2",
+                    "Pos.x": 840,
+                    "Pos.y": 120,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "del_item",
+                    "Pos.x": 840,
+                    "Pos.y": 60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "gtu",
+                    "Pos.x": 750,
+                    "Pos.y": 60,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                }
+            ]
+        }
+    ],
+    "Visual.Links": 
+    [
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 10,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 5,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 6,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 7,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 6,
+            "End": 3,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 7,
+            "End": 4,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 4,
+            "End": 0,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 16,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 15,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 14,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 13,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 17,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 16,
+            "End": 18,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 15,
+            "End": 19,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 14,
+            "End": 20,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 13,
+            "End": 21,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 17,
+            "End": 22,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 18,
+            "End": 27,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 19,
+            "End": 26,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 20,
+            "End": 25,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 21,
+            "End": 24,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 22,
+            "End": 23,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 27,
+            "End": 28,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 26,
+            "End": 29,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 25,
+            "End": 30,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 24,
+            "End": 31,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 23,
+            "End": 32,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 53,
+            "End": 54,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 53,
+            "End": 51,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 51,
+            "End": 52,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 50,
+            "End": 52,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 11,
+            "End": 60,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 59,
+            "End": 61,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 8,
+            "End": 64,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 33,
+            "End": 65,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 65,
+            "End": 66,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 66,
+            "End": 9,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 67,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 68,
+            "End": 70,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 70,
+            "End": 33,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 69,
+            "End": 9,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 67,
+            "End": 8,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 64,
+            "End": 76,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 76,
+            "End": 59,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 10,
+            "End": 75,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 75,
+            "End": 11,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 0,
+            "End": 77,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 1,
+            "End": 77,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 77,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 78,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 1,
+            "End": 78,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 0,
+            "End": 78,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 78,
+            "End": 8,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 77,
+            "End": 79,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 79,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 61,
+            "End": 9,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 59,
+            "End": 80,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 80,
+            "End": 81,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 81,
+            "End": 83,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 81,
+            "End": 82,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 82,
+            "End": 84,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 84,
+            "End": 85,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 85,
+            "End": 86,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 83,
+            "End": 79,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 68,
+            "End": 69,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 28,
+            "End": 87,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 29,
+            "End": 87,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 87,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 87,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 32,
+            "End": 87,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 32,
+            "End": 88,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 88,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 88,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 29,
+            "End": 88,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 28,
+            "End": 88,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 88,
+            "End": 89,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 89,
+            "End": 91,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 89,
+            "End": 92,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 92,
+            "End": 93,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 93,
+            "End": 94,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 94,
+            "End": 79,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 79,
+            "End": 96,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 96,
+            "End": 95,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 97,
+            "End": 98,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 98,
+            "End": 100,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 97,
+            "End": 99,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 0,
+            "End": 103,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 1,
+            "End": 103,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 103,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 103,
+            "End": 100,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 100,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 28,
+            "End": 101,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 29,
+            "End": 101,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 101,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 101,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 32,
+            "End": 101,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 101,
+            "End": 102,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 99,
+            "End": 105,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 100,
+            "End": 96,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 105,
+            "End": 96,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 87,
+            "End": 109,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 109,
+            "End": 68,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 5,
+            "End": 111,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 111,
+            "End": 2,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 91,
+            "End": 97,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 113,
+            "End": 115,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 112,
+            "End": 81,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 0,
+            "End": 119,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 1,
+            "End": 119,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 119,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 28,
+            "End": 120,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 29,
+            "End": 120,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 120,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 120,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 32,
+            "End": 120,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 119,
+            "End": 118,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 117,
+            "End": 118,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 118,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 136,
+            "End": 116,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 137,
+            "End": 128,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 137,
+            "End": 122,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 137,
+            "End": 123,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 137,
+            "End": 124,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 137,
+            "End": 125,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 137,
+            "End": 126,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 137,
+            "End": 127,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 141,
+            "End": 142,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 142,
+            "End": 118,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 120,
+            "End": 143,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 143,
+            "End": 137,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 127,
+            "End": 135,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 126,
+            "End": 134,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 125,
+            "End": 133,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 124,
+            "End": 132,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 123,
+            "End": 131,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 122,
+            "End": 130,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 128,
+            "End": 129,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 135,
+            "End": 150,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 134,
+            "End": 149,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 133,
+            "End": 148,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 132,
+            "End": 147,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 131,
+            "End": 146,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 130,
+            "End": 145,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 129,
+            "End": 144,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 151,
+            "End": 136,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 150,
+            "End": 151,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 149,
+            "End": 151,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 148,
+            "End": 151,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 147,
+            "End": 151,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 146,
+            "End": 151,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 145,
+            "End": 151,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 144,
+            "End": 151,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 144,
+            "End": 152,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 145,
+            "End": 152,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 146,
+            "End": 152,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 147,
+            "End": 152,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 148,
+            "End": 152,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 149,
+            "End": 152,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 150,
+            "End": 152,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 113,
+            "End": 114,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 121,
+            "End": 155,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 118,
+            "End": 155,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 86,
+            "End": 95,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 56,
+            "End": 162,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 56,
+            "End": 161,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 161,
+            "End": 163,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 162,
+            "End": 58,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 8,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 164,
+            "End": 165,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 164,
+            "End": 166,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 165,
+            "End": 168,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 168,
+            "End": 169,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 166,
+            "End": 167,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 167,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 0,
+            "End": 170,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 1,
+            "End": 170,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 170,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 170,
+            "End": 167,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 28,
+            "End": 171,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 29,
+            "End": 171,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 171,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 171,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 32,
+            "End": 171,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 167,
+            "End": 169,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 173,
+            "End": 174,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 174,
+            "End": 164,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 172,
+            "End": 177,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 177,
+            "End": 173,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 171,
+            "End": 178,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 178,
+            "End": 172,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 180,
+            "End": 181,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 181,
+            "End": 116,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 180,
+            "End": 182,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 182,
+            "End": 164,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 180,
+            "End": 183,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 183,
+            "End": 184,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 60,
+            "End": 59,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 59,
+            "End": 185,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 185,
+            "End": 160,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 180,
+            "End": 187,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 187,
+            "End": 186,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 186,
+            "End": 188,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 188,
+            "End": 191,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 191,
+            "End": 189,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 189,
+            "End": 192,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 193,
+            "End": 194,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 194,
+            "End": 195,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 195,
+            "End": 196,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 157,
+            "End": 193,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 196,
+            "End": 180,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 157,
+            "End": 197,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 197,
+            "End": 180,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 200,
+            "End": 201,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 201,
+            "End": 202,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 202,
+            "End": 203,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 57,
+            "End": 204,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 204,
+            "End": 59,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 57,
+            "End": 200,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 203,
+            "End": 59,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 55,
+            "End": 56,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 188,
+            "End": 190,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 116,
+            "End": 208,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 208,
+            "End": 121,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 137,
+            "End": 142,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 114,
+            "End": 112,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 211,
+            "End": 142,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 152,
+            "End": 210,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 210,
+            "End": 211,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 152,
+            "End": 212,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 212,
+            "End": 141,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 116,
+            "End": 117,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 102,
+            "End": 113,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 59,
+            "End": 215,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 215,
+            "End": 216,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 217,
+            "End": 220,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 220,
+            "End": 219,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 217,
+            "End": 218,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 219,
+            "End": 214,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 216,
+            "End": 221,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 221,
+            "End": 217,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 218,
+            "End": 222,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 214,
+            "End": 222,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 222,
+            "End": 59,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 172,
+            "End": 223,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 223,
+            "End": 164,
+            "Nom": 0,
+            "Arrow": true
+        }
+    ],
+    "BlockPar.EC.Total.Strings": 52,
+    "BlockPar.EC": 
+    [
+        {
+            "#": "106",
+            "String": "Выберите оборудование для прошивки."
+        },
+        {
+            "#": "107",
+            "String": "Покинуть отдел"
+        },
+        {
+            "#": "109",
+            "String": "У вас нету неопознанного оборудования пригодного для совмещения."
+        },
+        {
+            "#": "110",
+            "String": "Получить обновлённые данные"
+        },
+        {
+            "#": "118",
+            "String": "Предыдущая страница"
+        },
+        {
+            "#": "119",
+            "String": "Первая страница"
+        },
+        {
+            "#": "120",
+            "String": "Следующая страница"
+        },
+        {
+            "#": "121",
+            "String": "Выберите оборудование, показатели которого хотите вернуть к стандартным значениям."
+        },
+        {
+            "#": "123",
+            "String": "Мы можем вернуть <0> к стандартным показателям за <1> cr."
+        },
+        {
+            "#": "124",
+            "String": "Согласен"
+        },
+        {
+            "#": "125",
+            "String": "Спасибо, но я передумал"
+        },
+        {
+            "#": "129",
+            "String": "Прошить оборудование"
+        },
+        {
+            "#": "134",
+            "String": "Оплатить модификацию"
+        },
+        {
+            "#": "135",
+            "String": "Я передумал"
+        },
+        {
+            "#": "136",
+            "String": "Что вас интересует?"
+        },
+        {
+            "#": "137",
+            "String": "Нужно больше кредитов."
+        },
+        {
+            "#": "140",
+            "String": "В модификацию входит панель управления некоторыми артефактами, а также усовершенствованный бортовой компьютер, но функции его пока что ограниченны(ждём новый патч <clr>x.2.a.1.1640+<clrEnd>).<br>Цена: <0> cr."
+        },
+        {
+            "#": "142",
+            "String": "Наш отдел изучает влияние артефактов на неизвестное оборудование. <br>Возможно, вы уже заметили, что только с ним некоторые артефакты функционируют в полную силу. Пока что понять из-за чего это происходит, мы не в силах. Но не всё так печально, мы научились совмещать микромодули любых производителей с неизвестным оборудованием и при полном изучении типа артефактов, сможем предложить вам эту услугу.<br>Но эта технология экспериментальная и требует существенных затрат, наши запасы артефактов иссякли. Надеюсь, вы не избавились от ненужных вам артефактов?"
+        },
+        {
+            "#": "144",
+            "String": "Заменить улучшенные части на стандартные"
+        },
+        {
+            "#": "145",
+            "String": "Модифицировать кабину корабля"
+        },
+        {
+            "#": "146",
+            "String": "У вас нету улучшенного оборудования."
+        },
+        {
+            "#": "148",
+            "String": "До какого типа прошить?<br>Нан-счёт: <0>."
+        },
+        {
+            "#": "149",
+            "String": "H-тип, цена прошивки: <0> cr. <1> нан."
+        },
+        {
+            "#": "150",
+            "String": "G-тип, цена прошивки: <0> cr. <1> нан."
+        },
+        {
+            "#": "151",
+            "String": "F-тип, цена прошивки: <0> cr. <1> нан."
+        },
+        {
+            "#": "152",
+            "String": "E-тип, цена прошивки: <0> cr. <1> нан."
+        },
+        {
+            "#": "153",
+            "String": "D-тип, цена прошивки: <0> cr. <1> нан."
+        },
+        {
+            "#": "154",
+            "String": "C-тип, цена прошивки: <0> cr. <1> нан."
+        },
+        {
+            "#": "155",
+            "String": "B-тип, цена прошивки: <0> cr. <1> нан."
+        },
+        {
+            "#": "156",
+            "String": "Нужно болше нанов."
+        },
+        {
+            "#": "157",
+            "String": "У вас нет артефактов пригодных для изучения."
+        },
+        {
+            "#": "158",
+            "String": "Мы можем прошить оборудование, тем самым повысив его эффективность, однако прошивка возможна не для любых моделей, скорее всего с развитием науки и техники мы сможем прошивать и более сложные агрегаты. При прошивке используется уникальное оборудование, настроенное только на заводские показатели, поэтому улучшенное оборудование не принимается. Также, каждая операция требует некоторых акриновых затрат, это количество будет списано с вашего нан-счёта.<br>Кроме прошивки, мы предоставляем услуги по восстановлению заводских настроек на улучшенном оборудовании. Но за новые детали вы рассчитаетесь полностью.<br>И ещё у нас имеются схемы для установки дополнительного оборудования в кабину пилота."
+        },
+        {
+            "#": "159",
+            "String": "Даже после того, как вы помогли изучить все типы артефактов, мы не можем передать вам все данные исследований. Однако, информацию о составных частях артефактов и некоторых их свойствах вы имеете право получить, скажем за 987654(ТЕСТ) cr."
+        },
+        {
+            "#": "160",
+            "String": "Купить"
+        },
+        {
+            "#": "161",
+            "String": "Купить данные исследований"
+        },
+        {
+            "#": "55",
+            "String": "<0><1>"
+        },
+        {
+            "#": "57",
+            "String": "Артефакты типа \"<0>\" изучены на <1>%.<br>Артефакты типа \"<2>\" изучены на <3>%.<br>Артефакты типа \"<4>\" изучены на <5>%.<br>Артефакты типа \"<6>\" изучены на <7>%.<br>Артефакты типа \"<8>\" изучены на <9>%.<br>Артефакты типа \"<10>\" изучены на <11>%.<br>Артефакты типа \"<12>\" изучены на <13>%.<br>Артефакты типа \"<14>\" изучены на <15>%.<br>Артефакты типа \"<16>\" изучены на <17>%.<br>Артефакты типа \"<18>\" изучены на <19>%.<br>Артефакты типа \"<20>\" изучены на <21>%.<br><br>Какой артефакт вы желаете сдать на изучение?"
+        },
+        {
+            "#": "59",
+            "String": "Вы выбрали:<br>Название артефакта: <0>.<br>Вес артефакта: <1> т.<br>Цена артефакта: <2> cr.<br>Тип артефакта: <3>."
+        },
+        {
+            "#": "60",
+            "String": "Назад"
+        },
+        {
+            "#": "61",
+            "String": "Сдать артефакт на изучение"
+        },
+        {
+            "#": "62",
+            "String": "Отказаться"
+        },
+        {
+            "#": "63",
+            "String": "Подтвердить"
+        },
+        {
+            "#": "64",
+            "String": "Совместить оборудование с микромодулем"
+        },
+        {
+            "#": "69",
+            "String": "Благодарим за помощь в изучении неизвестного оборудования, в качестве компенсации получите <0> cr. за утраченный артефакт."
+        },
+        {
+            "#": "70",
+            "String": "Выберите оборудование для совмещения с модулем."
+        },
+        {
+            "#": "71",
+            "String": "Мы не изучили данный тип оборудования."
+        },
+        {
+            "#": "72",
+            "String": "Выберите микромодуль для совмещения."
+        },
+        {
+            "#": "74",
+            "String": "Вы выбрали для совмещения:<br>Оборудование: <0>.<br>Микромодуль: <1>."
+        },
+        {
+            "#": "75",
+            "String": "Далее"
+        },
+        {
+            "#": "89",
+            "String": "Выбрать другой предмет"
+        },
+        {
+            "#": "94",
+            "String": "У вас нету микромодулей."
+        },
+        {
+            "#": "97",
+            "String": "Нету оборудования пригодного для прошивки."
+        }
+    ]
+}
